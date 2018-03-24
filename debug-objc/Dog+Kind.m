@@ -21,4 +21,8 @@ static char * KDog_Brother_Key = "KDog_Brother_Key";
     objc_setAssociatedObject(self, KDog_Brother_Key, brother, OBJC_ASSOCIATION_RETAIN);
 }
 
+- (void)whatKindOfDogIAm {
+    NSLog(@"金毛狮王");
+}
+
 @end

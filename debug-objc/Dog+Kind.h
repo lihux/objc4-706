@@ -11,4 +11,6 @@
 
 @property (nonatomic, strong) Dog *brother;
 
+- (void)whatKindOfDogIAm;
+
 @end

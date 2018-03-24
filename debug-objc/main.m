@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import "LHTestContanier.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         NSLog(@"Hello, World!");
+        [[LHTestContanier new] beginTest];
     }
     return 0;
 }

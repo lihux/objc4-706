@@ -117,6 +117,7 @@
 		9CB7BC8F20652DCA008CB18A /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7BC8E20652DCA008CB18A /* Dog.m */; };
 		9CB7BC9220652DE4008CB18A /* WolfDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7BC9120652DE4008CB18A /* WolfDog.m */; };
 		9CB7BC9520652FC4008CB18A /* Dog+Kind.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7BC9420652FC4008CB18A /* Dog+Kind.m */; };
+		9CB7BC98206662DF008CB18A /* LHTestContanier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7BC97206662DF008CB18A /* LHTestContanier.m */; };
 		E8923DA1116AB2820071B552 /* a1a2-blocktramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = E8923D9C116AB2820071B552 /* a1a2-blocktramps-i386.s */; };
 		E8923DA2116AB2820071B552 /* a1a2-blocktramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = E8923D9D116AB2820071B552 /* a1a2-blocktramps-x86_64.s */; };
 		E8923DA3116AB2820071B552 /* a2a3-blocktramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = E8923D9E116AB2820071B552 /* a2a3-blocktramps-i386.s */; };
@@ -259,6 +260,8 @@
 		9CB7BC9120652DE4008CB18A /* WolfDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WolfDog.m; sourceTree = "<group>"; };
 		9CB7BC9320652FC4008CB18A /* Dog+Kind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog+Kind.h"; sourceTree = "<group>"; };
 		9CB7BC9420652FC4008CB18A /* Dog+Kind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Dog+Kind.m"; sourceTree = "<group>"; };
+		9CB7BC96206662DF008CB18A /* LHTestContanier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHTestContanier.h; sourceTree = "<group>"; };
+		9CB7BC97206662DF008CB18A /* LHTestContanier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHTestContanier.m; sourceTree = "<group>"; };
 		BC8B5D1212D3D48100C78A5B /* libauto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libauto.dylib; path = /usr/lib/libauto.dylib; sourceTree = "<absolute>"; };
 		D2AAC0630554660B00DB518D /* libobjc.A.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libobjc.A.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8923D9C116AB2820071B552 /* a1a2-blocktramps-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "a1a2-blocktramps-i386.s"; path = "runtime/a1a2-blocktramps-i386.s"; sourceTree = "<group>"; };
@@ -371,6 +374,8 @@
 			isa = PBXGroup;
 			children = (
 				5E1E1CFC1E374D1B005091E2 /* main.m */,
+				9CB7BC96206662DF008CB18A /* LHTestContanier.h */,
+				9CB7BC97206662DF008CB18A /* LHTestContanier.m */,
 				9CB7BC8A20652DB7008CB18A /* Animal.h */,
 				9CB7BC8B20652DB7008CB18A /* Animal.m */,
 				9CB7BC8D20652DCA008CB18A /* Dog.h */,
@@ -709,6 +714,7 @@
 				9CB7BC8F20652DCA008CB18A /* Dog.m in Sources */,
 				5E1E1CFD1E374D1B005091E2 /* main.m in Sources */,
 				9CB7BC9220652DE4008CB18A /* WolfDog.m in Sources */,
+				9CB7BC98206662DF008CB18A /* LHTestContanier.m in Sources */,
 				9CB7BC9520652FC4008CB18A /* Dog+Kind.m in Sources */,
 				9CB7BC8C20652DB7008CB18A /* Animal.m in Sources */,
 			);
