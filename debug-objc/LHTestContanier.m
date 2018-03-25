@@ -9,13 +9,18 @@
 
 #import "Dog.h"
 #import "Dog+Kind.h"
+#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 @implementation LHTestContanier
 
 - (void)beginTest {
     Dog *dog = [[Dog alloc] init];
     NSLog(@"%@", [dog name]);
-    dog.brother = [Dog new];
+    Dog *brother = [Dog new];
+    dog.brother = brother;
+    NSLog(@"我的兄弟是：%@", dog.brother.name);
+    [dog whatKindOfDogIAm];
     [dog run];
 }
 
