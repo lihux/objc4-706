@@ -1,0 +1,180 @@
+
+debug-objc:	file format Mach-O 64-bit x86-64
+
+SYMBOL TABLE:
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	Dog.m
+000000005aba0afa l    d  __TEXT,__stub_helper	__stub_helper
+00000001000016d0 l    d  __TEXT,__text	__text
+00000001000016d0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001700 l    d  __TEXT,__text	__text
+0000000100001700 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001730 l    d  __TEXT,__text	__text
+0000000100001730 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001760 l    d  __TEXT,__text	__text
+0000000100001760 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+00000001000017e0 l    d  __TEXT,__text	__text
+00000001000017e0 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/Dog.h
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001800 l    d  __TEXT,__text	__text
+0000000100001800 l    d  __TEXT,__text	__text
+0000000000000025 l    d  *UND*	
+0000000000000025 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	_OBJC_IVAR_$_Dog._legs
+0000000000000000 l    d  *UND*	_OBJC_METACLASS_$_Dog
+0000000000000000 l    d  *UND*	_OBJC_CLASS_$_Dog
+0000000000000000 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	main.m
+000000005aba06a5 l    d  __TEXT,__stub_helper	__stub_helper
+0000000100001830 l    d  __TEXT,__text	__text
+0000000100001830 l    d  __TEXT,__text	__text
+000000000000007e l    d  *UND*	
+000000000000007e l    d  __TEXT,__text	__text
+0000000000000000 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	WolfDog.m
+000000005aba0809 l    d  __TEXT,__stub_helper	__stub_helper
+00000001000018b0 l    d  __TEXT,__text	__text
+00000001000018b0 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+0000000100001930 l    d  __TEXT,__text	__text
+0000000100001930 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/WolfDog.h
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001950 l    d  __TEXT,__text	__text
+0000000100001950 l    d  __TEXT,__text	__text
+0000000000000025 l    d  *UND*	
+0000000000000025 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	_OBJC_IVAR_$_WolfDog._power
+0000000000000000 l    d  *UND*	_OBJC_METACLASS_$_WolfDog
+0000000000000000 l    d  *UND*	_OBJC_CLASS_$_WolfDog
+0000000000000000 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	LHTestContanier.m
+000000005aba0de2 l    d  __TEXT,__stub_helper	__stub_helper
+0000000100001980 l    d  __TEXT,__text	__text
+0000000100001980 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+00000001000019c0 l    d  __TEXT,__text	__text
+00000001000019c0 l    d  __TEXT,__text	__text
+0000000000000078 l    d  *UND*	
+0000000000000078 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	_OBJC_METACLASS_$_LHTestContanier
+0000000000000000 l    d  *UND*	_OBJC_CLASS_$_LHTestContanier
+0000000000000000 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	Dog+Kind.m
+000000005aba0809 l    d  __TEXT,__stub_helper	__stub_helper
+0000000100001a40 l    d  __TEXT,__text	__text
+0000000100001a40 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+0000000100001a80 l    d  __TEXT,__text	__text
+0000000100001a80 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+0000000100001ae0 l    d  __TEXT,__text	__text
+0000000100001ae0 l    d  __TEXT,__text	__text
+0000000000000027 l    d  *UND*	
+0000000000000027 l    d  __TEXT,__text	__text
+0000000100002828 l    d  __DATA,__data	__data
+0000000000000000 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/
+0000000000000000 l    d  *UND*	Animal.m
+000000005aba06a5 l    d  __TEXT,__stub_helper	__stub_helper
+0000000100001b10 l    d  __TEXT,__text	__text
+0000000100001b10 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100001b60 l    d  __TEXT,__text	__text
+0000000100001b60 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	/Users/test/mucang/objc4-706/debug-objc/Animal.h
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001b90 l    d  __TEXT,__text	__text
+0000000100001b90 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+0000000100001bd0 l    d  __TEXT,__text	__text
+0000000100001bd0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001bf0 l    d  __TEXT,__text	__text
+0000000100001bf0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001c20 l    d  __TEXT,__text	__text
+0000000100001c20 l    d  __TEXT,__text	__text
+0000000000000033 l    d  *UND*	
+0000000000000033 l    d  __TEXT,__text	__text
+0000000000000000 l    d  *UND*	_OBJC_IVAR_$_Animal._name
+0000000000000000 l    d  *UND*	_OBJC_IVAR_$_Animal._age
+0000000000000000 l    d  *UND*	_OBJC_METACLASS_$_Animal
+0000000000000000 l    d  *UND*	_OBJC_CLASS_$_Animal
+0000000000000000 l    d  __TEXT,__text	__text
+00000001000016d0 l     F __TEXT,__text	+[Dog load]
+0000000100001700 l     F __TEXT,__text	+[Dog initialize]
+0000000100001730 l     F __TEXT,__text	+[Dog sayDog]
+0000000100001760 l     F __TEXT,__text	-[Dog run]
+00000001000017e0 l     F __TEXT,__text	-[Dog legs]
+0000000100001800 l     F __TEXT,__text	-[Dog setLegs:]
+00000001000018b0 l     F __TEXT,__text	-[WolfDog hunting]
+0000000100001930 l     F __TEXT,__text	-[WolfDog power]
+0000000100001950 l     F __TEXT,__text	-[WolfDog setPower:]
+0000000100001980 l     F __TEXT,__text	-[LHTestContanier beginTest]
+00000001000019c0 l     F __TEXT,__text	-[LHTestContanier testCallClassMethod]
+0000000100001a40 l     F __TEXT,__text	-[Dog(Kind) brother]
+0000000100001a80 l     F __TEXT,__text	-[Dog(Kind) setBrother:]
+0000000100001ae0 l     F __TEXT,__text	-[Dog(Kind) whatKindOfDogIAm]
+0000000100001b10 l     F __TEXT,__text	-[Animal eat]
+0000000100001b60 l     F __TEXT,__text	-[Animal name]
+0000000100001b90 l     F __TEXT,__text	-[Animal setName:]
+0000000100001bd0 l     F __TEXT,__text	-[Animal age]
+0000000100001bf0 l     F __TEXT,__text	-[Animal setAge:]
+0000000100001c20 l     F __TEXT,__text	-[Animal .cxx_destruct]
+00000001000026c8 l       __DATA,__objc_ivar	_OBJC_IVAR_$_Dog._legs
+00000001000026d0 l       __DATA,__objc_ivar	_OBJC_IVAR_$_WolfDog._power
+00000001000026d8 l       __DATA,__objc_ivar	_OBJC_IVAR_$_Animal._name
+00000001000026e0 l       __DATA,__objc_ivar	_OBJC_IVAR_$_Animal._age
+0000000100002828 l       __DATA,__data	_KDog_Brother_Key
+0000000100002800 g       __DATA,__objc_data	_OBJC_CLASS_$_Animal
+0000000100002710 g       __DATA,__objc_data	_OBJC_CLASS_$_Dog
+00000001000027b0 g       __DATA,__objc_data	_OBJC_CLASS_$_LHTestContanier
+0000000100002760 g       __DATA,__objc_data	_OBJC_CLASS_$_WolfDog
+00000001000027d8 g       __DATA,__objc_data	_OBJC_METACLASS_$_Animal
+00000001000026e8 g       __DATA,__objc_data	_OBJC_METACLASS_$_Dog
+0000000100002788 g       __DATA,__objc_data	_OBJC_METACLASS_$_LHTestContanier
+0000000100002738 g       __DATA,__objc_data	_OBJC_METACLASS_$_WolfDog
+0000000100000000 g     F __TEXT,__text	__mh_execute_header
+0000000100001830 g     F __TEXT,__text	_main
+0000000000000000         *UND*	_NSLog
+0000000000000000         *UND*	_OBJC_CLASS_$_NSObject
+0000000000000000         *UND*	_OBJC_METACLASS_$_NSObject
+0000000000000000         *UND*	___CFConstantStringClassReference
+0000000000000000         *UND*	__objc_empty_cache
+0000000000000000         *UND*	_objc_autoreleasePoolPop
+0000000000000000         *UND*	_objc_autoreleasePoolPush
+0000000000000000         *UND*	_objc_getAssociatedObject
+0000000000000000         *UND*	_objc_getProperty
+0000000000000000         *UND*	_objc_msgSend
+0000000000000000         *UND*	_objc_release
+0000000000000000         *UND*	_objc_retainAutoreleasedReturnValue
+0000000000000000         *UND*	_objc_setAssociatedObject
+0000000000000000         *UND*	_objc_setProperty_nonatomic_copy
+0000000000000000         *UND*	_objc_storeStrong
+0000000000000000         *UND*	_printf
+0000000000000000         *UND*	dyld_stub_binder
