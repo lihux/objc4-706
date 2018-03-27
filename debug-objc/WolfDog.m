@@ -9,6 +9,10 @@
 
 @implementation WolfDog
 
++(void)load {
+    //Do nothing here...
+}
+
 - (void)hunting {
     NSLog(@"%@:%@ 开始捕猎了：活捉一只小鲜肉", [self class], self.name);
 }

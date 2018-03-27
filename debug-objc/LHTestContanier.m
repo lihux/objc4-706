@@ -9,6 +9,7 @@
 
 #import "Dog.h"
 #import "Dog+Kind.h"
+#import "WolfDog.h"
 #import <objc/objc-runtime.h>
 #import <objc/runtime.h>
 

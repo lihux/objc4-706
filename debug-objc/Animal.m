@@ -9,6 +9,10 @@
 
 @implementation Animal
 
++(void)load {
+    //Do nothing here...
+}
+
 - (void)eat {
     NSLog(@"%@开始吃饭啦~~", [self class]);
 }

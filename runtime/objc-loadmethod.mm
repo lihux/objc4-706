@@ -198,6 +198,7 @@ static void call_class_loads(void)
         load_method_t load_method = (load_method_t)classes[i].method;
         if (!cls) continue; 
 
+        printf("LOAD: +[%s load]\n", cls->nameForLogging());
         if (PrintLoading) {
             _objc_inform("LOAD: +[%s load]\n", cls->nameForLogging());
         }
@@ -243,6 +244,9 @@ static bool call_category_loads(void)
 
         cls = _category_getClass(cat);
         if (cls  &&  cls->isLoadable()) {
+            printf("LOAD: +[%s(%s) load]\n",
+                   cls->nameForLogging(),
+                   _category_getName(cat));
             if (PrintLoading) {
                 _objc_inform("LOAD: +[%s(%s) load]\n", 
                              cls->nameForLogging(), 

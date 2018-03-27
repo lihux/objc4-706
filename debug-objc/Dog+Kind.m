@@ -13,6 +13,11 @@ static char * KDog_Brother_Key = "KDog_Brother_Key";
 
 @implementation Dog (Kind)
 
++(void)load {
+    //Do nothing here...
+}
+
+
 - (Dog *)brother {
     return objc_getAssociatedObject(self, KDog_Brother_Key);
 }
