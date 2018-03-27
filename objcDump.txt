@@ -1,0 +1,2270 @@
+#The following assemble code is created by command 
+#`objdump -disassemble-all debug-objc > temp.txt`
+# where debug-objc is build in commit 756be20 @2018-03-27 Tue.
+
+debug-objc:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+__text:
+1000016d0:	55 	pushq	%rbp
+1000016d1:	48 89 e5 	movq	%rsp, %rbp
+1000016d4:	48 83 ec 20 	subq	$32, %rsp
+1000016d8:	48 8d 05 45 06 00 00 	leaq	1605(%rip), %rax
+1000016df:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000016e3:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000016e7:	48 89 c7 	movq	%rax, %rdi
+1000016ea:	b0 00 	movb	$0, %al
+1000016ec:	e8 a5 05 00 00 	callq	1445
+1000016f1:	89 45 ec 	movl	%eax, -20(%rbp)
+1000016f4:	48 83 c4 20 	addq	$32, %rsp
+1000016f8:	5d 	popq	%rbp
+1000016f9:	c3 	retq
+1000016fa:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+100001700:	55 	pushq	%rbp
+100001701:	48 89 e5 	movq	%rsp, %rbp
+100001704:	48 83 ec 20 	subq	$32, %rsp
+100001708:	48 8d 05 3f 06 00 00 	leaq	1599(%rip), %rax
+10000170f:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001713:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001717:	48 89 c7 	movq	%rax, %rdi
+10000171a:	b0 00 	movb	$0, %al
+10000171c:	e8 75 05 00 00 	callq	1397
+100001721:	89 45 ec 	movl	%eax, -20(%rbp)
+100001724:	48 83 c4 20 	addq	$32, %rsp
+100001728:	5d 	popq	%rbp
+100001729:	c3 	retq
+10000172a:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+100001730:	55 	pushq	%rbp
+100001731:	48 89 e5 	movq	%rsp, %rbp
+100001734:	48 83 ec 20 	subq	$32, %rsp
+100001738:	48 8d 05 3c 06 00 00 	leaq	1596(%rip), %rax
+10000173f:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001743:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001747:	48 89 c7 	movq	%rax, %rdi
+10000174a:	b0 00 	movb	$0, %al
+10000174c:	e8 45 05 00 00 	callq	1349
+100001751:	89 45 ec 	movl	%eax, -20(%rbp)
+100001754:	48 83 c4 20 	addq	$32, %rsp
+100001758:	5d 	popq	%rbp
+100001759:	c3 	retq
+10000175a:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+100001760:	55 	pushq	%rbp
+100001761:	48 89 e5 	movq	%rsp, %rbp
+100001764:	48 83 ec 30 	subq	$48, %rsp
+100001768:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+10000176c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001770:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001774:	48 8b 3d 0d 0f 00 00 	movq	3853(%rip), %rdi
+10000177b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+10000177f:	48 89 f7 	movq	%rsi, %rdi
+100001782:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001786:	e8 e7 04 00 00 	callq	1255
+10000178b:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+10000178f:	48 8b 3d fa 0e 00 00 	movq	3834(%rip), %rdi
+100001796:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+10000179a:	48 89 f7 	movq	%rsi, %rdi
+10000179d:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+1000017a1:	48 89 45 d8 	movq	%rax, -40(%rbp)
+1000017a5:	e8 c8 04 00 00 	callq	1224
+1000017aa:	48 89 c7 	movq	%rax, %rdi
+1000017ad:	e8 cc 04 00 00 	callq	1228
+1000017b2:	48 8d 35 b7 08 00 00 	leaq	2231(%rip), %rsi
+1000017b9:	48 89 f7 	movq	%rsi, %rdi
+1000017bc:	48 8b 75 d8 	movq	-40(%rbp), %rsi
+1000017c0:	48 89 c2 	movq	%rax, %rdx
+1000017c3:	48 89 45 d0 	movq	%rax, -48(%rbp)
+1000017c7:	b0 00 	movb	$0, %al
+1000017c9:	e8 86 04 00 00 	callq	1158
+1000017ce:	48 8b 55 d0 	movq	-48(%rbp), %rdx
+1000017d2:	48 89 d7 	movq	%rdx, %rdi
+1000017d5:	e8 9e 04 00 00 	callq	1182
+1000017da:	48 83 c4 30 	addq	$48, %rsp
+1000017de:	5d 	popq	%rbp
+1000017df:	c3 	retq
+1000017e0:	55 	pushq	%rbp
+1000017e1:	48 89 e5 	movq	%rsp, %rbp
+1000017e4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000017e8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000017ec:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000017f0:	48 8b 3d d1 0e 00 00 	movq	3793(%rip), %rdi
+1000017f7:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+1000017fb:	5d 	popq	%rbp
+1000017fc:	c3 	retq
+1000017fd:	0f 1f 00 	nopl	(%rax)
+100001800:	55 	pushq	%rbp
+100001801:	48 89 e5 	movq	%rsp, %rbp
+100001804:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001808:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000180c:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001810:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001814:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001818:	48 8b 3d a9 0e 00 00 	movq	3753(%rip), %rdi
+10000181f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001823:	5d 	popq	%rbp
+100001824:	c3 	retq
+100001825:	90 	nop
+100001826:	90 	nop
+100001827:	90 	nop
+100001828:	90 	nop
+100001829:	90 	nop
+10000182a:	90 	nop
+10000182b:	90 	nop
+10000182c:	90 	nop
+10000182d:	90 	nop
+10000182e:	90 	nop
+10000182f:	90 	nop
+100001830:	55 	pushq	%rbp
+100001831:	48 89 e5 	movq	%rsp, %rbp
+100001834:	48 83 ec 30 	subq	$48, %rsp
+100001838:	c7 45 fc 00 00 00 00 	movl	$0, -4(%rbp)
+10000183f:	89 7d f8 	movl	%edi, -8(%rbp)
+100001842:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001846:	e8 15 04 00 00 	callq	1045
+10000184b:	48 8d 35 3e 08 00 00 	leaq	2110(%rip), %rsi
+100001852:	48 89 f7 	movq	%rsi, %rdi
+100001855:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100001859:	b0 00 	movb	$0, %al
+10000185b:	e8 f4 03 00 00 	callq	1012
+100001860:	48 8b 35 51 0e 00 00 	movq	3665(%rip), %rsi
+100001867:	48 8b 3d 2a 0e 00 00 	movq	3626(%rip), %rdi
+10000186e:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001872:	48 89 f7 	movq	%rsi, %rdi
+100001875:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+100001879:	e8 f4 03 00 00 	callq	1012
+10000187e:	48 8b 35 1b 0e 00 00 	movq	3611(%rip), %rsi
+100001885:	48 89 c7 	movq	%rax, %rdi
+100001888:	48 89 45 d8 	movq	%rax, -40(%rbp)
+10000188c:	e8 e1 03 00 00 	callq	993
+100001891:	48 8b 45 d8 	movq	-40(%rbp), %rax
+100001895:	48 89 c7 	movq	%rax, %rdi
+100001898:	e8 db 03 00 00 	callq	987
+10000189d:	48 8b 7d e8 	movq	-24(%rbp), %rdi
+1000018a1:	e8 b4 03 00 00 	callq	948
+1000018a6:	31 c0 	xorl	%eax, %eax
+1000018a8:	48 83 c4 30 	addq	$48, %rsp
+1000018ac:	5d 	popq	%rbp
+1000018ad:	c3 	retq
+1000018ae:	90 	nop
+1000018af:	90 	nop
+1000018b0:	55 	pushq	%rbp
+1000018b1:	48 89 e5 	movq	%rsp, %rbp
+1000018b4:	48 83 ec 30 	subq	$48, %rsp
+1000018b8:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000018bc:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000018c0:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000018c4:	48 8b 3d bd 0d 00 00 	movq	3517(%rip), %rdi
+1000018cb:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+1000018cf:	48 89 f7 	movq	%rsi, %rdi
+1000018d2:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000018d6:	e8 97 03 00 00 	callq	919
+1000018db:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000018df:	48 8b 3d aa 0d 00 00 	movq	3498(%rip), %rdi
+1000018e6:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+1000018ea:	48 89 f7 	movq	%rsi, %rdi
+1000018ed:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+1000018f1:	48 89 45 d8 	movq	%rax, -40(%rbp)
+1000018f5:	e8 78 03 00 00 	callq	888
+1000018fa:	48 89 c7 	movq	%rax, %rdi
+1000018fd:	e8 7c 03 00 00 	callq	892
+100001902:	48 8d 35 a7 07 00 00 	leaq	1959(%rip), %rsi
+100001909:	48 89 f7 	movq	%rsi, %rdi
+10000190c:	48 8b 75 d8 	movq	-40(%rbp), %rsi
+100001910:	48 89 c2 	movq	%rax, %rdx
+100001913:	48 89 45 d0 	movq	%rax, -48(%rbp)
+100001917:	b0 00 	movb	$0, %al
+100001919:	e8 36 03 00 00 	callq	822
+10000191e:	48 8b 55 d0 	movq	-48(%rbp), %rdx
+100001922:	48 89 d7 	movq	%rdx, %rdi
+100001925:	e8 4e 03 00 00 	callq	846
+10000192a:	48 83 c4 30 	addq	$48, %rsp
+10000192e:	5d 	popq	%rbp
+10000192f:	c3 	retq
+100001930:	55 	pushq	%rbp
+100001931:	48 89 e5 	movq	%rsp, %rbp
+100001934:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001938:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000193c:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001940:	48 8b 3d 89 0d 00 00 	movq	3465(%rip), %rdi
+100001947:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+10000194b:	5d 	popq	%rbp
+10000194c:	c3 	retq
+10000194d:	0f 1f 00 	nopl	(%rax)
+100001950:	55 	pushq	%rbp
+100001951:	48 89 e5 	movq	%rsp, %rbp
+100001954:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001958:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000195c:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001960:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001964:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001968:	48 8b 3d 61 0d 00 00 	movq	3425(%rip), %rdi
+10000196f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001973:	5d 	popq	%rbp
+100001974:	c3 	retq
+100001975:	90 	nop
+100001976:	90 	nop
+100001977:	90 	nop
+100001978:	90 	nop
+100001979:	90 	nop
+10000197a:	90 	nop
+10000197b:	90 	nop
+10000197c:	90 	nop
+10000197d:	90 	nop
+10000197e:	90 	nop
+10000197f:	90 	nop
+100001980:	55 	pushq	%rbp
+100001981:	48 89 e5 	movq	%rsp, %rbp
+100001984:	48 83 ec 20 	subq	$32, %rsp
+100001988:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+10000198c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001990:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001994:	48 8b 3d 0d 0d 00 00 	movq	3341(%rip), %rdi
+10000199b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+10000199f:	48 89 f7 	movq	%rsi, %rdi
+1000019a2:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000019a6:	e8 c7 02 00 00 	callq	711
+1000019ab:	48 83 c4 20 	addq	$32, %rsp
+1000019af:	5d 	popq	%rbp
+1000019b0:	c3 	retq
+1000019b1:	66 66 66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+1000019c0:	55 	pushq	%rbp
+1000019c1:	48 89 e5 	movq	%rsp, %rbp
+1000019c4:	48 83 ec 20 	subq	$32, %rsp
+1000019c8:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000019cc:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000019d0:	48 8b 35 e9 0c 00 00 	movq	3305(%rip), %rsi
+1000019d7:	48 8b 3d d2 0c 00 00 	movq	3282(%rip), %rdi
+1000019de:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+1000019e2:	48 89 f7 	movq	%rsi, %rdi
+1000019e5:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000019e9:	e8 84 02 00 00 	callq	644
+1000019ee:	48 8b 35 cb 0c 00 00 	movq	3275(%rip), %rsi
+1000019f5:	48 8b 3d 9c 0c 00 00 	movq	3228(%rip), %rdi
+1000019fc:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001a00:	48 89 f7 	movq	%rsi, %rdi
+100001a03:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+100001a07:	e8 66 02 00 00 	callq	614
+100001a0c:	48 89 c7 	movq	%rax, %rdi
+100001a0f:	e8 64 02 00 00 	callq	612
+100001a14:	48 8b 05 a5 0c 00 00 	movq	3237(%rip), %rax
+100001a1b:	48 8b 35 76 0c 00 00 	movq	3190(%rip), %rsi
+100001a22:	48 89 c7 	movq	%rax, %rdi
+100001a25:	e8 48 02 00 00 	callq	584
+100001a2a:	48 89 c7 	movq	%rax, %rdi
+100001a2d:	e8 46 02 00 00 	callq	582
+100001a32:	48 83 c4 20 	addq	$32, %rsp
+100001a36:	5d 	popq	%rbp
+100001a37:	c3 	retq
+100001a38:	90 	nop
+100001a39:	90 	nop
+100001a3a:	90 	nop
+100001a3b:	90 	nop
+100001a3c:	90 	nop
+100001a3d:	90 	nop
+100001a3e:	90 	nop
+100001a3f:	90 	nop
+100001a40:	55 	pushq	%rbp
+100001a41:	48 89 e5 	movq	%rsp, %rbp
+100001a44:	48 83 ec 20 	subq	$32, %rsp
+100001a48:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001a4c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001a50:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001a54:	48 8b 3d cd 0d 00 00 	movq	3533(%rip), %rdi
+100001a5b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+100001a5f:	48 89 f7 	movq	%rsi, %rdi
+100001a62:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001a66:	e8 fb 01 00 00 	callq	507
+100001a6b:	48 83 c4 20 	addq	$32, %rsp
+100001a6f:	5d 	popq	%rbp
+100001a70:	c3 	retq
+100001a71:	66 66 66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+100001a80:	55 	pushq	%rbp
+100001a81:	48 89 e5 	movq	%rsp, %rbp
+100001a84:	48 83 ec 20 	subq	$32, %rsp
+100001a88:	48 8d 45 e8 	leaq	-24(%rbp), %rax
+100001a8c:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001a90:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001a94:	48 c7 45 e8 00 00 00 00 	movq	$0, -24(%rbp)
+100001a9c:	48 89 c7 	movq	%rax, %rdi
+100001a9f:	48 89 d6 	movq	%rdx, %rsi
+100001aa2:	e8 e9 01 00 00 	callq	489
+100001aa7:	b9 01 03 00 00 	movl	$769, %ecx
+100001aac:	48 8b 45 f8 	movq	-8(%rbp), %rax
+100001ab0:	48 8b 35 71 0d 00 00 	movq	3441(%rip), %rsi
+100001ab7:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001abb:	48 89 c7 	movq	%rax, %rdi
+100001abe:	e8 c1 01 00 00 	callq	449
+100001ac3:	45 31 c0 	xorl	%r8d, %r8d
+100001ac6:	44 89 c6 	movl	%r8d, %esi
+100001ac9:	48 8d 45 e8 	leaq	-24(%rbp), %rax
+100001acd:	48 89 c7 	movq	%rax, %rdi
+100001ad0:	e8 bb 01 00 00 	callq	443
+100001ad5:	48 83 c4 20 	addq	$32, %rsp
+100001ad9:	5d 	popq	%rbp
+100001ada:	c3 	retq
+100001adb:	0f 1f 44 00 00 	nopl	(%rax,%rax)
+100001ae0:	55 	pushq	%rbp
+100001ae1:	48 89 e5 	movq	%rsp, %rbp
+100001ae4:	48 83 ec 10 	subq	$16, %rsp
+100001ae8:	48 8d 05 e1 05 00 00 	leaq	1505(%rip), %rax
+100001aef:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001af3:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001af7:	48 89 c7 	movq	%rax, %rdi
+100001afa:	b0 00 	movb	$0, %al
+100001afc:	e8 53 01 00 00 	callq	339
+100001b01:	48 83 c4 10 	addq	$16, %rsp
+100001b05:	5d 	popq	%rbp
+100001b06:	c3 	retq
+100001b07:	90 	nop
+100001b08:	90 	nop
+100001b09:	90 	nop
+100001b0a:	90 	nop
+100001b0b:	90 	nop
+100001b0c:	90 	nop
+100001b0d:	90 	nop
+100001b0e:	90 	nop
+100001b0f:	90 	nop
+100001b10:	55 	pushq	%rbp
+100001b11:	48 89 e5 	movq	%rsp, %rbp
+100001b14:	48 83 ec 20 	subq	$32, %rsp
+100001b18:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b1c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001b20:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001b24:	48 8b 3d 5d 0b 00 00 	movq	2909(%rip), %rdi
+100001b2b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+100001b2f:	48 89 f7 	movq	%rsi, %rdi
+100001b32:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001b36:	e8 37 01 00 00 	callq	311
+100001b3b:	48 8d 35 ae 05 00 00 	leaq	1454(%rip), %rsi
+100001b42:	48 89 f7 	movq	%rsi, %rdi
+100001b45:	48 89 c6 	movq	%rax, %rsi
+100001b48:	b0 00 	movb	$0, %al
+100001b4a:	e8 05 01 00 00 	callq	261
+100001b4f:	48 83 c4 20 	addq	$32, %rsp
+100001b53:	5d 	popq	%rbp
+100001b54:	c3 	retq
+100001b55:	66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+100001b60:	55 	pushq	%rbp
+100001b61:	48 89 e5 	movq	%rsp, %rbp
+100001b64:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b68:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001b6c:	48 8b 75 f0 	movq	-16(%rbp), %rsi
+100001b70:	48 8b 7d f8 	movq	-8(%rbp), %rdi
+100001b74:	48 8b 15 5d 0b 00 00 	movq	2909(%rip), %rdx
+100001b7b:	31 c9 	xorl	%ecx, %ecx
+100001b7d:	5d 	popq	%rbp
+100001b7e:	e9 e9 00 00 00 	jmp	233
+100001b83:	66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+100001b90:	55 	pushq	%rbp
+100001b91:	48 89 e5 	movq	%rsp, %rbp
+100001b94:	48 83 ec 20 	subq	$32, %rsp
+100001b98:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b9c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001ba0:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001ba4:	48 8b 75 f0 	movq	-16(%rbp), %rsi
+100001ba8:	48 8b 55 f8 	movq	-8(%rbp), %rdx
+100001bac:	48 8b 0d 25 0b 00 00 	movq	2853(%rip), %rcx
+100001bb3:	48 8b 7d e8 	movq	-24(%rbp), %rdi
+100001bb7:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001bbb:	48 89 d7 	movq	%rdx, %rdi
+100001bbe:	48 8b 55 e0 	movq	-32(%rbp), %rdx
+100001bc2:	e8 c3 00 00 00 	callq	195
+100001bc7:	48 83 c4 20 	addq	$32, %rsp
+100001bcb:	5d 	popq	%rbp
+100001bcc:	c3 	retq
+100001bcd:	0f 1f 00 	nopl	(%rax)
+100001bd0:	55 	pushq	%rbp
+100001bd1:	48 89 e5 	movq	%rsp, %rbp
+100001bd4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001bd8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001bdc:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001be0:	48 8b 3d f9 0a 00 00 	movq	2809(%rip), %rdi
+100001be7:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+100001beb:	5d 	popq	%rbp
+100001bec:	c3 	retq
+100001bed:	0f 1f 00 	nopl	(%rax)
+100001bf0:	55 	pushq	%rbp
+100001bf1:	48 89 e5 	movq	%rsp, %rbp
+100001bf4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001bf8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001bfc:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001c00:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001c04:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001c08:	48 8b 3d d1 0a 00 00 	movq	2769(%rip), %rdi
+100001c0f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001c13:	5d 	popq	%rbp
+100001c14:	c3 	retq
+100001c15:	66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+100001c20:	55 	pushq	%rbp
+100001c21:	48 89 e5 	movq	%rsp, %rbp
+100001c24:	48 83 ec 10 	subq	$16, %rsp
+100001c28:	31 c0 	xorl	%eax, %eax
+100001c2a:	89 c1 	movl	%eax, %ecx
+100001c2c:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001c30:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001c34:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001c38:	48 8b 3d 99 0a 00 00 	movq	2713(%rip), %rdi
+100001c3f:	48 01 fe 	addq	%rdi, %rsi
+100001c42:	48 89 f7 	movq	%rsi, %rdi
+100001c45:	48 89 ce 	movq	%rcx, %rsi
+100001c48:	e8 43 00 00 00 	callq	67
+100001c4d:	48 83 c4 10 	addq	$16, %rsp
+100001c51:	5d 	popq	%rbp
+100001c52:	c3 	retq
+
++[Dog load]:
+1000016d0:	55 	pushq	%rbp
+1000016d1:	48 89 e5 	movq	%rsp, %rbp
+1000016d4:	48 83 ec 20 	subq	$32, %rsp
+1000016d8:	48 8d 05 45 06 00 00 	leaq	1605(%rip), %rax
+1000016df:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000016e3:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000016e7:	48 89 c7 	movq	%rax, %rdi
+1000016ea:	b0 00 	movb	$0, %al
+1000016ec:	e8 a5 05 00 00 	callq	1445
+1000016f1:	89 45 ec 	movl	%eax, -20(%rbp)
+1000016f4:	48 83 c4 20 	addq	$32, %rsp
+1000016f8:	5d 	popq	%rbp
+1000016f9:	c3 	retq
+1000016fa:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+
++[Dog initialize]:
+100001700:	55 	pushq	%rbp
+100001701:	48 89 e5 	movq	%rsp, %rbp
+100001704:	48 83 ec 20 	subq	$32, %rsp
+100001708:	48 8d 05 3f 06 00 00 	leaq	1599(%rip), %rax
+10000170f:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001713:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001717:	48 89 c7 	movq	%rax, %rdi
+10000171a:	b0 00 	movb	$0, %al
+10000171c:	e8 75 05 00 00 	callq	1397
+100001721:	89 45 ec 	movl	%eax, -20(%rbp)
+100001724:	48 83 c4 20 	addq	$32, %rsp
+100001728:	5d 	popq	%rbp
+100001729:	c3 	retq
+10000172a:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+
++[Dog sayDog]:
+100001730:	55 	pushq	%rbp
+100001731:	48 89 e5 	movq	%rsp, %rbp
+100001734:	48 83 ec 20 	subq	$32, %rsp
+100001738:	48 8d 05 3c 06 00 00 	leaq	1596(%rip), %rax
+10000173f:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001743:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001747:	48 89 c7 	movq	%rax, %rdi
+10000174a:	b0 00 	movb	$0, %al
+10000174c:	e8 45 05 00 00 	callq	1349
+100001751:	89 45 ec 	movl	%eax, -20(%rbp)
+100001754:	48 83 c4 20 	addq	$32, %rsp
+100001758:	5d 	popq	%rbp
+100001759:	c3 	retq
+10000175a:	66 0f 1f 44 00 00 	nopw	(%rax,%rax)
+
+-[Dog run]:
+100001760:	55 	pushq	%rbp
+100001761:	48 89 e5 	movq	%rsp, %rbp
+100001764:	48 83 ec 30 	subq	$48, %rsp
+100001768:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+10000176c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001770:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001774:	48 8b 3d 0d 0f 00 00 	movq	3853(%rip), %rdi
+10000177b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+10000177f:	48 89 f7 	movq	%rsi, %rdi
+100001782:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001786:	e8 e7 04 00 00 	callq	1255
+10000178b:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+10000178f:	48 8b 3d fa 0e 00 00 	movq	3834(%rip), %rdi
+100001796:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+10000179a:	48 89 f7 	movq	%rsi, %rdi
+10000179d:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+1000017a1:	48 89 45 d8 	movq	%rax, -40(%rbp)
+1000017a5:	e8 c8 04 00 00 	callq	1224
+1000017aa:	48 89 c7 	movq	%rax, %rdi
+1000017ad:	e8 cc 04 00 00 	callq	1228
+1000017b2:	48 8d 35 b7 08 00 00 	leaq	2231(%rip), %rsi
+1000017b9:	48 89 f7 	movq	%rsi, %rdi
+1000017bc:	48 8b 75 d8 	movq	-40(%rbp), %rsi
+1000017c0:	48 89 c2 	movq	%rax, %rdx
+1000017c3:	48 89 45 d0 	movq	%rax, -48(%rbp)
+1000017c7:	b0 00 	movb	$0, %al
+1000017c9:	e8 86 04 00 00 	callq	1158
+1000017ce:	48 8b 55 d0 	movq	-48(%rbp), %rdx
+1000017d2:	48 89 d7 	movq	%rdx, %rdi
+1000017d5:	e8 9e 04 00 00 	callq	1182
+1000017da:	48 83 c4 30 	addq	$48, %rsp
+1000017de:	5d 	popq	%rbp
+1000017df:	c3 	retq
+
+-[Dog legs]:
+1000017e0:	55 	pushq	%rbp
+1000017e1:	48 89 e5 	movq	%rsp, %rbp
+1000017e4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000017e8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000017ec:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000017f0:	48 8b 3d d1 0e 00 00 	movq	3793(%rip), %rdi
+1000017f7:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+1000017fb:	5d 	popq	%rbp
+1000017fc:	c3 	retq
+1000017fd:	0f 1f 00 	nopl	(%rax)
+
+-[Dog setLegs:]:
+100001800:	55 	pushq	%rbp
+100001801:	48 89 e5 	movq	%rsp, %rbp
+100001804:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001808:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000180c:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001810:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001814:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001818:	48 8b 3d a9 0e 00 00 	movq	3753(%rip), %rdi
+10000181f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001823:	5d 	popq	%rbp
+100001824:	c3 	retq
+100001825:	90 	nop
+100001826:	90 	nop
+100001827:	90 	nop
+100001828:	90 	nop
+100001829:	90 	nop
+10000182a:	90 	nop
+10000182b:	90 	nop
+10000182c:	90 	nop
+10000182d:	90 	nop
+10000182e:	90 	nop
+10000182f:	90 	nop
+
+_main:
+100001830:	55 	pushq	%rbp
+100001831:	48 89 e5 	movq	%rsp, %rbp
+100001834:	48 83 ec 30 	subq	$48, %rsp
+100001838:	c7 45 fc 00 00 00 00 	movl	$0, -4(%rbp)
+10000183f:	89 7d f8 	movl	%edi, -8(%rbp)
+100001842:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001846:	e8 15 04 00 00 	callq	1045
+10000184b:	48 8d 35 3e 08 00 00 	leaq	2110(%rip), %rsi
+100001852:	48 89 f7 	movq	%rsi, %rdi
+100001855:	48 89 45 e8 	movq	%rax, -24(%rbp)
+100001859:	b0 00 	movb	$0, %al
+10000185b:	e8 f4 03 00 00 	callq	1012
+100001860:	48 8b 35 51 0e 00 00 	movq	3665(%rip), %rsi
+100001867:	48 8b 3d 2a 0e 00 00 	movq	3626(%rip), %rdi
+10000186e:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001872:	48 89 f7 	movq	%rsi, %rdi
+100001875:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+100001879:	e8 f4 03 00 00 	callq	1012
+10000187e:	48 8b 35 1b 0e 00 00 	movq	3611(%rip), %rsi
+100001885:	48 89 c7 	movq	%rax, %rdi
+100001888:	48 89 45 d8 	movq	%rax, -40(%rbp)
+10000188c:	e8 e1 03 00 00 	callq	993
+100001891:	48 8b 45 d8 	movq	-40(%rbp), %rax
+100001895:	48 89 c7 	movq	%rax, %rdi
+100001898:	e8 db 03 00 00 	callq	987
+10000189d:	48 8b 7d e8 	movq	-24(%rbp), %rdi
+1000018a1:	e8 b4 03 00 00 	callq	948
+1000018a6:	31 c0 	xorl	%eax, %eax
+1000018a8:	48 83 c4 30 	addq	$48, %rsp
+1000018ac:	5d 	popq	%rbp
+1000018ad:	c3 	retq
+1000018ae:	90 	nop
+1000018af:	90 	nop
+
+-[WolfDog hunting]:
+1000018b0:	55 	pushq	%rbp
+1000018b1:	48 89 e5 	movq	%rsp, %rbp
+1000018b4:	48 83 ec 30 	subq	$48, %rsp
+1000018b8:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000018bc:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000018c0:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000018c4:	48 8b 3d bd 0d 00 00 	movq	3517(%rip), %rdi
+1000018cb:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+1000018cf:	48 89 f7 	movq	%rsi, %rdi
+1000018d2:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000018d6:	e8 97 03 00 00 	callq	919
+1000018db:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+1000018df:	48 8b 3d aa 0d 00 00 	movq	3498(%rip), %rdi
+1000018e6:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+1000018ea:	48 89 f7 	movq	%rsi, %rdi
+1000018ed:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+1000018f1:	48 89 45 d8 	movq	%rax, -40(%rbp)
+1000018f5:	e8 78 03 00 00 	callq	888
+1000018fa:	48 89 c7 	movq	%rax, %rdi
+1000018fd:	e8 7c 03 00 00 	callq	892
+100001902:	48 8d 35 a7 07 00 00 	leaq	1959(%rip), %rsi
+100001909:	48 89 f7 	movq	%rsi, %rdi
+10000190c:	48 8b 75 d8 	movq	-40(%rbp), %rsi
+100001910:	48 89 c2 	movq	%rax, %rdx
+100001913:	48 89 45 d0 	movq	%rax, -48(%rbp)
+100001917:	b0 00 	movb	$0, %al
+100001919:	e8 36 03 00 00 	callq	822
+10000191e:	48 8b 55 d0 	movq	-48(%rbp), %rdx
+100001922:	48 89 d7 	movq	%rdx, %rdi
+100001925:	e8 4e 03 00 00 	callq	846
+10000192a:	48 83 c4 30 	addq	$48, %rsp
+10000192e:	5d 	popq	%rbp
+10000192f:	c3 	retq
+
+-[WolfDog power]:
+100001930:	55 	pushq	%rbp
+100001931:	48 89 e5 	movq	%rsp, %rbp
+100001934:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001938:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000193c:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001940:	48 8b 3d 89 0d 00 00 	movq	3465(%rip), %rdi
+100001947:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+10000194b:	5d 	popq	%rbp
+10000194c:	c3 	retq
+10000194d:	0f 1f 00 	nopl	(%rax)
+
+-[WolfDog setPower:]:
+100001950:	55 	pushq	%rbp
+100001951:	48 89 e5 	movq	%rsp, %rbp
+100001954:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001958:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+10000195c:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001960:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001964:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001968:	48 8b 3d 61 0d 00 00 	movq	3425(%rip), %rdi
+10000196f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001973:	5d 	popq	%rbp
+100001974:	c3 	retq
+100001975:	90 	nop
+100001976:	90 	nop
+100001977:	90 	nop
+100001978:	90 	nop
+100001979:	90 	nop
+10000197a:	90 	nop
+10000197b:	90 	nop
+10000197c:	90 	nop
+10000197d:	90 	nop
+10000197e:	90 	nop
+10000197f:	90 	nop
+
+-[LHTestContanier beginTest]:
+100001980:	55 	pushq	%rbp
+100001981:	48 89 e5 	movq	%rsp, %rbp
+100001984:	48 83 ec 20 	subq	$32, %rsp
+100001988:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+10000198c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001990:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001994:	48 8b 3d 0d 0d 00 00 	movq	3341(%rip), %rdi
+10000199b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+10000199f:	48 89 f7 	movq	%rsi, %rdi
+1000019a2:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000019a6:	e8 c7 02 00 00 	callq	711
+1000019ab:	48 83 c4 20 	addq	$32, %rsp
+1000019af:	5d 	popq	%rbp
+1000019b0:	c3 	retq
+1000019b1:	66 66 66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+
+-[LHTestContanier testCallClassMethod]:
+1000019c0:	55 	pushq	%rbp
+1000019c1:	48 89 e5 	movq	%rsp, %rbp
+1000019c4:	48 83 ec 20 	subq	$32, %rsp
+1000019c8:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+1000019cc:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+1000019d0:	48 8b 35 e9 0c 00 00 	movq	3305(%rip), %rsi
+1000019d7:	48 8b 3d d2 0c 00 00 	movq	3282(%rip), %rdi
+1000019de:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+1000019e2:	48 89 f7 	movq	%rsi, %rdi
+1000019e5:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+1000019e9:	e8 84 02 00 00 	callq	644
+1000019ee:	48 8b 35 cb 0c 00 00 	movq	3275(%rip), %rsi
+1000019f5:	48 8b 3d 9c 0c 00 00 	movq	3228(%rip), %rdi
+1000019fc:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001a00:	48 89 f7 	movq	%rsi, %rdi
+100001a03:	48 8b 75 e0 	movq	-32(%rbp), %rsi
+100001a07:	e8 66 02 00 00 	callq	614
+100001a0c:	48 89 c7 	movq	%rax, %rdi
+100001a0f:	e8 64 02 00 00 	callq	612
+100001a14:	48 8b 05 a5 0c 00 00 	movq	3237(%rip), %rax
+100001a1b:	48 8b 35 76 0c 00 00 	movq	3190(%rip), %rsi
+100001a22:	48 89 c7 	movq	%rax, %rdi
+100001a25:	e8 48 02 00 00 	callq	584
+100001a2a:	48 89 c7 	movq	%rax, %rdi
+100001a2d:	e8 46 02 00 00 	callq	582
+100001a32:	48 83 c4 20 	addq	$32, %rsp
+100001a36:	5d 	popq	%rbp
+100001a37:	c3 	retq
+100001a38:	90 	nop
+100001a39:	90 	nop
+100001a3a:	90 	nop
+100001a3b:	90 	nop
+100001a3c:	90 	nop
+100001a3d:	90 	nop
+100001a3e:	90 	nop
+100001a3f:	90 	nop
+
+-[Dog(Kind) brother]:
+100001a40:	55 	pushq	%rbp
+100001a41:	48 89 e5 	movq	%rsp, %rbp
+100001a44:	48 83 ec 20 	subq	$32, %rsp
+100001a48:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001a4c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001a50:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001a54:	48 8b 3d cd 0d 00 00 	movq	3533(%rip), %rdi
+100001a5b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+100001a5f:	48 89 f7 	movq	%rsi, %rdi
+100001a62:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001a66:	e8 fb 01 00 00 	callq	507
+100001a6b:	48 83 c4 20 	addq	$32, %rsp
+100001a6f:	5d 	popq	%rbp
+100001a70:	c3 	retq
+100001a71:	66 66 66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+
+-[Dog(Kind) setBrother:]:
+100001a80:	55 	pushq	%rbp
+100001a81:	48 89 e5 	movq	%rsp, %rbp
+100001a84:	48 83 ec 20 	subq	$32, %rsp
+100001a88:	48 8d 45 e8 	leaq	-24(%rbp), %rax
+100001a8c:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001a90:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001a94:	48 c7 45 e8 00 00 00 00 	movq	$0, -24(%rbp)
+100001a9c:	48 89 c7 	movq	%rax, %rdi
+100001a9f:	48 89 d6 	movq	%rdx, %rsi
+100001aa2:	e8 e9 01 00 00 	callq	489
+100001aa7:	b9 01 03 00 00 	movl	$769, %ecx
+100001aac:	48 8b 45 f8 	movq	-8(%rbp), %rax
+100001ab0:	48 8b 35 71 0d 00 00 	movq	3441(%rip), %rsi
+100001ab7:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001abb:	48 89 c7 	movq	%rax, %rdi
+100001abe:	e8 c1 01 00 00 	callq	449
+100001ac3:	45 31 c0 	xorl	%r8d, %r8d
+100001ac6:	44 89 c6 	movl	%r8d, %esi
+100001ac9:	48 8d 45 e8 	leaq	-24(%rbp), %rax
+100001acd:	48 89 c7 	movq	%rax, %rdi
+100001ad0:	e8 bb 01 00 00 	callq	443
+100001ad5:	48 83 c4 20 	addq	$32, %rsp
+100001ad9:	5d 	popq	%rbp
+100001ada:	c3 	retq
+100001adb:	0f 1f 44 00 00 	nopl	(%rax,%rax)
+
+-[Dog(Kind) whatKindOfDogIAm]:
+100001ae0:	55 	pushq	%rbp
+100001ae1:	48 89 e5 	movq	%rsp, %rbp
+100001ae4:	48 83 ec 10 	subq	$16, %rsp
+100001ae8:	48 8d 05 e1 05 00 00 	leaq	1505(%rip), %rax
+100001aef:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001af3:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001af7:	48 89 c7 	movq	%rax, %rdi
+100001afa:	b0 00 	movb	$0, %al
+100001afc:	e8 53 01 00 00 	callq	339
+100001b01:	48 83 c4 10 	addq	$16, %rsp
+100001b05:	5d 	popq	%rbp
+100001b06:	c3 	retq
+100001b07:	90 	nop
+100001b08:	90 	nop
+100001b09:	90 	nop
+100001b0a:	90 	nop
+100001b0b:	90 	nop
+100001b0c:	90 	nop
+100001b0d:	90 	nop
+100001b0e:	90 	nop
+100001b0f:	90 	nop
+
+-[Animal eat]:
+100001b10:	55 	pushq	%rbp
+100001b11:	48 89 e5 	movq	%rsp, %rbp
+100001b14:	48 83 ec 20 	subq	$32, %rsp
+100001b18:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b1c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001b20:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001b24:	48 8b 3d 5d 0b 00 00 	movq	2909(%rip), %rdi
+100001b2b:	48 89 7d e8 	movq	%rdi, -24(%rbp)
+100001b2f:	48 89 f7 	movq	%rsi, %rdi
+100001b32:	48 8b 75 e8 	movq	-24(%rbp), %rsi
+100001b36:	e8 37 01 00 00 	callq	311
+100001b3b:	48 8d 35 ae 05 00 00 	leaq	1454(%rip), %rsi
+100001b42:	48 89 f7 	movq	%rsi, %rdi
+100001b45:	48 89 c6 	movq	%rax, %rsi
+100001b48:	b0 00 	movb	$0, %al
+100001b4a:	e8 05 01 00 00 	callq	261
+100001b4f:	48 83 c4 20 	addq	$32, %rsp
+100001b53:	5d 	popq	%rbp
+100001b54:	c3 	retq
+100001b55:	66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+
+-[Animal name]:
+100001b60:	55 	pushq	%rbp
+100001b61:	48 89 e5 	movq	%rsp, %rbp
+100001b64:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b68:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001b6c:	48 8b 75 f0 	movq	-16(%rbp), %rsi
+100001b70:	48 8b 7d f8 	movq	-8(%rbp), %rdi
+100001b74:	48 8b 15 5d 0b 00 00 	movq	2909(%rip), %rdx
+100001b7b:	31 c9 	xorl	%ecx, %ecx
+100001b7d:	5d 	popq	%rbp
+100001b7e:	e9 e9 00 00 00 	jmp	233
+100001b83:	66 66 66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+
+-[Animal setName:]:
+100001b90:	55 	pushq	%rbp
+100001b91:	48 89 e5 	movq	%rsp, %rbp
+100001b94:	48 83 ec 20 	subq	$32, %rsp
+100001b98:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001b9c:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001ba0:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001ba4:	48 8b 75 f0 	movq	-16(%rbp), %rsi
+100001ba8:	48 8b 55 f8 	movq	-8(%rbp), %rdx
+100001bac:	48 8b 0d 25 0b 00 00 	movq	2853(%rip), %rcx
+100001bb3:	48 8b 7d e8 	movq	-24(%rbp), %rdi
+100001bb7:	48 89 7d e0 	movq	%rdi, -32(%rbp)
+100001bbb:	48 89 d7 	movq	%rdx, %rdi
+100001bbe:	48 8b 55 e0 	movq	-32(%rbp), %rdx
+100001bc2:	e8 c3 00 00 00 	callq	195
+100001bc7:	48 83 c4 20 	addq	$32, %rsp
+100001bcb:	5d 	popq	%rbp
+100001bcc:	c3 	retq
+100001bcd:	0f 1f 00 	nopl	(%rax)
+
+-[Animal age]:
+100001bd0:	55 	pushq	%rbp
+100001bd1:	48 89 e5 	movq	%rsp, %rbp
+100001bd4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001bd8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001bdc:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001be0:	48 8b 3d f9 0a 00 00 	movq	2809(%rip), %rdi
+100001be7:	48 8b 04 3e 	movq	(%rsi,%rdi), %rax
+100001beb:	5d 	popq	%rbp
+100001bec:	c3 	retq
+100001bed:	0f 1f 00 	nopl	(%rax)
+
+-[Animal setAge:]:
+100001bf0:	55 	pushq	%rbp
+100001bf1:	48 89 e5 	movq	%rsp, %rbp
+100001bf4:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001bf8:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001bfc:	48 89 55 e8 	movq	%rdx, -24(%rbp)
+100001c00:	48 8b 55 e8 	movq	-24(%rbp), %rdx
+100001c04:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001c08:	48 8b 3d d1 0a 00 00 	movq	2769(%rip), %rdi
+100001c0f:	48 89 14 3e 	movq	%rdx, (%rsi,%rdi)
+100001c13:	5d 	popq	%rbp
+100001c14:	c3 	retq
+100001c15:	66 66 2e 0f 1f 84 00 00 00 00 00 	nopw	%cs:(%rax,%rax)
+
+-[Animal .cxx_destruct]:
+100001c20:	55 	pushq	%rbp
+100001c21:	48 89 e5 	movq	%rsp, %rbp
+100001c24:	48 83 ec 10 	subq	$16, %rsp
+100001c28:	31 c0 	xorl	%eax, %eax
+100001c2a:	89 c1 	movl	%eax, %ecx
+100001c2c:	48 89 7d f8 	movq	%rdi, -8(%rbp)
+100001c30:	48 89 75 f0 	movq	%rsi, -16(%rbp)
+100001c34:	48 8b 75 f8 	movq	-8(%rbp), %rsi
+100001c38:	48 8b 3d 99 0a 00 00 	movq	2713(%rip), %rdi
+100001c3f:	48 01 fe 	addq	%rdi, %rsi
+100001c42:	48 89 f7 	movq	%rsi, %rdi
+100001c45:	48 89 ce 	movq	%rcx, %rsi
+100001c48:	e8 43 00 00 00 	callq	67
+100001c4d:	48 83 c4 10 	addq	$16, %rsp
+100001c51:	5d 	popq	%rbp
+100001c52:	c3 	retq
+Disassembly of section __TEXT,__stubs:
+__stubs:
+100001c54:	ff 25 b6 03 00 00 	jmpq	*950(%rip)
+100001c5a:	ff 25 b8 03 00 00 	jmpq	*952(%rip)
+100001c60:	ff 25 ba 03 00 00 	jmpq	*954(%rip)
+100001c66:	ff 25 bc 03 00 00 	jmpq	*956(%rip)
+100001c6c:	ff 25 be 03 00 00 	jmpq	*958(%rip)
+100001c72:	ff 25 c0 03 00 00 	jmpq	*960(%rip)
+100001c78:	ff 25 c2 03 00 00 	jmpq	*962(%rip)
+100001c7e:	ff 25 c4 03 00 00 	jmpq	*964(%rip)
+100001c84:	ff 25 c6 03 00 00 	jmpq	*966(%rip)
+100001c8a:	ff 25 c8 03 00 00 	jmpq	*968(%rip)
+100001c90:	ff 25 ca 03 00 00 	jmpq	*970(%rip)
+100001c96:	ff 25 cc 03 00 00 	jmpq	*972(%rip)
+Disassembly of section __TEXT,__stub_helper:
+__stub_helper:
+100001c9c:	4c 8d 1d 65 03 00 00 	leaq	869(%rip), %r11
+100001ca3:	41 53 	pushq	%r11
+100001ca5:	ff 25 55 03 00 00 	jmpq	*853(%rip)
+100001cab:	90 	nop
+100001cac:	68 00 00 00 00 	pushq	$0
+100001cb1:	e9 e6 ff ff ff 	jmp	-26 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cb6:	68 0d 00 00 00 	pushq	$13
+100001cbb:	e9 dc ff ff ff 	jmp	-36 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cc0:	68 2c 00 00 00 	pushq	$44
+100001cc5:	e9 d2 ff ff ff 	jmp	-46 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cca:	68 4c 00 00 00 	pushq	$76
+100001ccf:	e9 c8 ff ff ff 	jmp	-56 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cd4:	68 6c 00 00 00 	pushq	$108
+100001cd9:	e9 be ff ff ff 	jmp	-66 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cde:	68 84 00 00 00 	pushq	$132
+100001ce3:	e9 b4 ff ff ff 	jmp	-76 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001ce8:	68 98 00 00 00 	pushq	$152
+100001ced:	e9 aa ff ff ff 	jmp	-86 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cf2:	68 ac 00 00 00 	pushq	$172
+100001cf7:	e9 a0 ff ff ff 	jmp	-96 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001cfc:	68 d6 00 00 00 	pushq	$214
+100001d01:	e9 96 ff ff ff 	jmp	-106 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001d06:	68 f6 00 00 00 	pushq	$246
+100001d0b:	e9 8c ff ff ff 	jmp	-116 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001d10:	68 1d 01 00 00 	pushq	$285
+100001d15:	e9 82 ff ff ff 	jmp	-126 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+100001d1a:	68 35 01 00 00 	pushq	$309
+100001d1f:	e9 78 ff ff ff 	jmp	-136 </Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Intermediates.noindex/objc.build/Debug/debug-objc.build/Objects-normal/x86_64/LHTestContanier.o+0xA5460EBA>
+Disassembly of section __TEXT,__cstring:
+__cstring:
+100001d24:	0a 20 	orb	(%rax), %ah
+100001d26:	46 72 6f 	jb	111 <__cstring+0x74>
+100001d29:	6d 	insl	%dx, %es:(%rdi)
+100001d2a:	20 6c 69 68 	andb	%ch, 104(%rcx,%rbp,2)
+100001d2e:	75 78 	jne	120 <__cstring+0x84>
+100001d30:	3a 20 	cmpb	(%rax), %ah
+100001d32:	22 44 6f 67 	andb	103(%rdi,%rbp,2), %al
+100001d36:	20 43 6c 	andb	%al, 108(%rbx)
+100001d39:	61  <unknown>
+100001d3a:	73 73 	jae	115 <__cstring+0x8B>
+100001d3c:	20 69 73 	andb	%ch, 115(%rcx)
+100001d3f:	20 6c 6f 61 	andb	%ch, 97(%rdi,%rbp,2)
+100001d43:	64 69 6e 67 2e 2e 2e 22 	imull	$573451822, %fs:103(%rsi), %ebp
+100001d4b:	20 0a 	andb	%cl, (%rdx)
+100001d4d:	00 0a 	addb	%cl, (%rdx)
+100001d4f:	20 46 72 	andb	%al, 114(%rsi)
+100001d52:	6f 	outsl	(%rsi), %dx
+100001d53:	6d 	insl	%dx, %es:(%rdi)
+100001d54:	20 6c 69 68 	andb	%ch, 104(%rcx,%rbp,2)
+100001d58:	75 78 	jne	120 <__cstring+0xAE>
+100001d5a:	3a 20 	cmpb	(%rax), %ah
+100001d5c:	22 44 6f 67 	andb	103(%rdi,%rbp,2), %al
+100001d60:	20 43 6c 	andb	%al, 108(%rbx)
+100001d63:	61  <unknown>
+100001d64:	73 73 	jae	115 <__cstring+0xB5>
+100001d66:	20 69 73 	andb	%ch, 115(%rcx)
+100001d69:	20 69 6e 	andb	%ch, 110(%rcx)
+100001d6c:	69 74 69 61 6c 69 7a 69 	imull	$1769630060, 97(%rcx,%rbp,2), %esi
+100001d74:	6e 	outsb	(%rsi), %dx
+100001d75:	67 21 22 	andl	%esp, (%edx)
+100001d78:	20 0a 	andb	%cl, (%rdx)
+100001d7a:	00 0a 	addb	%cl, (%rdx)
+100001d7c:	20 46 72 	andb	%al, 114(%rsi)
+100001d7f:	6f 	outsl	(%rsi), %dx
+100001d80:	6d 	insl	%dx, %es:(%rdi)
+100001d81:	20 6c 69 68 	andb	%ch, 104(%rcx,%rbp,2)
+100001d85:	75 78 	jne	120 <__cstring+0xDB>
+100001d87:	3a 20 	cmpb	(%rax), %ah
+100001d89:	22 49 27 	andb	39(%rcx), %cl
+100001d8c:	6d 	insl	%dx, %es:(%rdi)
+100001d8d:	20 61 20 	andb	%ah, 32(%rcx)
+100001d90:	64 6f 	outsl	%fs:(%rsi), %dx
+100001d92:	67 67 79 21 	jns	33 <__cstring+0x93>
+100001d96:	22 20 	andb	(%rax), %ah
+100001d98:	0a 00 	orb	(%rax), %al
+100001d9a:	6c 	insb	%dx, %es:(%rdi)
+100001d9b:	65 67 73 00 	jae	0 <__cstring+0x7B>
+100001d9f:	54 	pushq	%rsp
+100001da0:	71 2c 	jno	44 <__cstring+0xAA>
+100001da2:	4e 2c 56 	subb	$86, %al
+100001da5:	5f 	popq	%rdi
+100001da6:	6c 	insb	%dx, %es:(%rdi)
+100001da7:	65 67 73 00 	jae	0 <__cstring+0x87>
+100001dab:	48 65 	gs
+100001dad:	6c 	insb	%dx, %es:(%rdi)
+100001dae:	6c 	insb	%dx, %es:(%rdi)
+100001daf:	6f 	outsl	(%rsi), %dx
+100001db0:	2c 20 	subb	$32, %al
+100001db2:	57 	pushq	%rdi
+100001db3:	6f 	outsl	(%rsi), %dx
+100001db4:	72 6c 	jb	108
+100001db6:	64 21 00 	andl	%eax, %fs:(%rax)
+100001db9:	70 6f 	jo	111
+100001dbb:	77 65 	ja	101
+100001dbd:	72 00 	jb	0 <__cstring+0x9B>
+100001dbf:	54 	pushq	%rsp
+100001dc0:	71 2c 	jno	44 <__cstring+0xCA>
+100001dc2:	4e 2c 56 	subb	$86, %al
+100001dc5:	5f 	popq	%rdi
+100001dc6:	70 6f 	jo	111
+100001dc8:	77 65 	ja	101
+100001dca:	72 00 	jb	0 <__cstring+0xA8>
+100001dcc:	62 72 6f 74 68  <unknown>
+100001dd1:	65 72 00 	jb	0 <__cstring+0xB0>
+100001dd4:	54 	pushq	%rsp
+100001dd5:	40 22 44 6f 67 	andb	103(%rdi,%rbp,2), %al
+100001dda:	22 2c 26 	andb	(%rsi), %ch
+100001ddd:	2c 4e 	subb	$78, %al
+100001ddf:	00 4b 44 	addb	%cl, 68(%rbx)
+100001de2:	6f 	outsl	(%rsi), %dx
+100001de3:	67 5f 	popq	%rdi
+100001de5:	42 72 6f 	jb	111
+100001de8:	74 68 	je	104
+100001dea:	65 72 5f 	jb	95
+100001ded:	4b 65 	gs
+100001def:	79 00 	jns	0 <__cstring+0xCD>
+100001df1:	6e 	outsb	(%rsi), %dx
+100001df2:	61  <unknown>
+100001df3:	6d 	insl	%dx, %es:(%rdi)
+100001df4:	65 00 54 40 22 	addb	%dl, %gs:34(%rax,%rax,2)
+100001df9:	4e 53 	pushq	%rbx
+100001dfb:	53 	pushq	%rbx
+100001dfc:	74 72 	je	114
+100001dfe:	69 6e 67 22 2c 43 2c 	imull	$742599714, 103(%rsi), %ebp
+100001e05:	4e 2c 56 	subb	$86, %al
+100001e08:	5f 	popq	%rdi
+100001e09:	6e 	outsb	(%rsi), %dx
+100001e0a:	61  <unknown>
+100001e0b:	6d 	insl	%dx, %es:(%rdi)
+100001e0c:	65 00 61 67 	addb	%ah, %gs:103(%rcx)
+100001e10:	65 00 54 71 2c 	addb	%dl, %gs:44(%rcx,%rsi,2)
+100001e15:	4e 2c 56 	subb	$86, %al
+100001e18:	5f 	popq	%rdi
+100001e19:	61  <unknown>
+100001e1a:	67 65 00  <unknown>
+Disassembly of section __TEXT,__ustring:
+__ustring:
+100001e1e:	25 00 40 00 3a 	andl	$973094912, %eax
+100001e23:	00 25 00 40 00 20 	addb	%ah, 536887296(%rip)
+100001e29:	00 00 	addb	%al, (%rax)
+100001e2b:	5f 	popq	%rdi
+100001e2c:	cb 	lretl
+100001e2d:	59 	popq	%rcx
+100001e2e:	d1 8d 65 6b 00 00 	rorl	27493(%rbp)
+100001e34:	25 00 40 00 3a 	andl	$973094912, %eax
+100001e39:	00 25 00 40 00 20 	addb	%ah, 536887296(%rip)
+100001e3f:	00 00 	addb	%al, (%rax)
+100001e41:	5f 	popq	%rdi
+100001e42:	cb 	lretl
+100001e43:	59 	popq	%rcx
+100001e44:	55 	pushq	%rbp
+100001e45:	63  <unknown>
+100001e46:	0e  <unknown>
+100001e47:	73 86 	jae	-122 <__cstring+0xAB>
+100001e49:	4e 1a ff 	sbbb	%dil, %r15b
+100001e4c:	3b 6d 49 	cmpl	73(%rbp), %ebp
+100001e4f:	63  <unknown>
+100001e50:	00 4e ea 	addb	%cl, -22(%rsi)
+100001e53:	53 	pushq	%rbx
+100001e54:	0f 5c 9c 9c 89 80 00 00 	subps	32905(%rsp,%rbx,4), %xmm3
+100001e5c:	d1 91 db 6b ee 72 	rcll	1928227803(%rcx)
+100001e62:	8b 73 00 	movl	(%rbx), %esi
+100001e65:	00 25 00 40 00 00 	addb	%ah, 16384(%rip)
+100001e6b:	5f 	popq	%rdi
+100001e6c:	cb 	lretl
+100001e6d:	59 	popq	%rcx
+100001e6e:	03 54 6d 99 	addl	-103(%rbp,%rbp,2), %edx
+100001e72:	66 55 	pushw	%bp
+100001e74:	7e 00 	jle	0 <__ustring+0x58>
+100001e76:	7e 00 	jle	0 <__ustring+0x5A>
+100001e78:	00 00 	addb	%al, (%rax)
+Disassembly of section __TEXT,__objc_methname:
+__objc_methname:
+100001e7a:	63  <unknown>
+100001e7b:	6c 	insb	%dx, %es:(%rdi)
+100001e7c:	61  <unknown>
+100001e7d:	73 73 	jae	115 <__objc_methname+0x78>
+100001e7f:	00 6e 61 	addb	%ch, 97(%rsi)
+100001e82:	6d 	insl	%dx, %es:(%rdi)
+100001e83:	65 00 6c 6f 61 	addb	%ch, %gs:97(%rdi,%rbp,2)
+100001e88:	64 00 69 6e 	addb	%ch, %fs:110(%rcx)
+100001e8c:	69 74 69 61 6c 69 7a 65 	imull	$1702521196, 97(%rcx,%rbp,2), %esi
+100001e94:	00 73 61 	addb	%dh, 97(%rbx)
+100001e97:	79 44 	jns	68 <__objc_methname+0x63>
+100001e99:	6f 	outsl	(%rsi), %dx
+100001e9a:	67 00 72 75 	addb	%dh, 117(%edx)
+100001e9e:	6e 	outsb	(%rsi), %dx
+100001e9f:	00 6c 65 67 	addb	%ch, 103(%rbp)
+100001ea3:	73 00 	jae	0 <__objc_methname+0x2B>
+100001ea5:	73 65 	jae	101 <__objc_methname+0x92>
+100001ea7:	74 4c 	je	76 <__objc_methname+0x7B>
+100001ea9:	65 67 73 3a 	jae	58 <__objc_methname+0x6D>
+100001ead:	00 5f 6c 	addb	%bl, 108(%rdi)
+100001eb0:	65 67 73 00 	jae	0 <__objc_methname+0x3A>
+100001eb4:	6e 	outsb	(%rsi), %dx
+100001eb5:	65 77 00 	ja	0 <__objc_methname+0x3E>
+100001eb8:	62  <unknown>
+100001eb9:	65 67 69 6e 54 65 73 74 00 	imull	$7631717, %gs:84(%esi), %ebp
+100001ec2:	68 75 6e 74 69 	pushq	$1769238133
+100001ec7:	6e 	outsb	(%rsi), %dx
+100001ec8:	67 00 70 6f 	addb	%dh, 111(%eax)
+100001ecc:	77 65 	ja	101 <__objc_methname+0xB9>
+100001ece:	72 00 	jb	0 <__objc_methname+0x56>
+100001ed0:	73 65 	jae	101 <__objc_methname+0xBD>
+100001ed2:	74 50 	je	80 <__objc_methname+0xAA>
+100001ed4:	6f 	outsl	(%rsi), %dx
+100001ed5:	77 65 	ja	101 <__objc_methname+0xC2>
+100001ed7:	72 3a 	jb	58 <__objc_methname+0x99>
+100001ed9:	00 5f 70 	addb	%bl, 112(%rdi)
+100001edc:	6f 	outsl	(%rsi), %dx
+100001edd:	77 65 	ja	101 <__objc_methname+0xCA>
+100001edf:	72 00 	jb	0 <__objc_methname+0x67>
+100001ee1:	74 65 	je	101 <__objc_methname+0xCE>
+100001ee3:	73 74 	jae	116
+100001ee5:	43 61  <unknown>
+100001ee7:	6c 	insb	%dx, %es:(%rdi)
+100001ee8:	6c 	insb	%dx, %es:(%rdi)
+100001ee9:	43 6c 	insb	%dx, %es:(%rdi)
+100001eeb:	61  <unknown>
+100001eec:	73 73 	jae	115
+100001eee:	4d 65 	gs
+100001ef0:	74 68 	je	104
+100001ef2:	6f 	outsl	(%rsi), %dx
+100001ef3:	64 00 62 72 	addb	%ah, %fs:114(%rdx)
+100001ef7:	6f 	outsl	(%rsi), %dx
+100001ef8:	74 68 	je	104
+100001efa:	65 72 00 	jb	0 <__objc_methname+0x83>
+100001efd:	73 65 	jae	101
+100001eff:	74 42 	je	66 <__objc_methname+0xC9>
+100001f01:	72 6f 	jb	111
+100001f03:	74 68 	je	104
+100001f05:	65 72 3a 	jb	58 <__objc_methname+0xC8>
+100001f08:	00 77 68 	addb	%dh, 104(%rdi)
+100001f0b:	61  <unknown>
+100001f0c:	74 4b 	je	75
+100001f0e:	69 6e 64 4f 66 44 6f 	imull	$1866753615, 100(%rsi), %ebp
+100001f15:	67 49  <unknown>
+100001f17:	41 6d 	insl	%dx, %es:(%rdi)
+100001f19:	00 65 61 	addb	%ah, 97(%rbp)
+100001f1c:	74 00 	je	0 <__objc_methname+0xA4>
+100001f1e:	2e 63  <unknown>
+100001f20:	78 78 	js	120
+100001f22:	5f 	popq	%rdi
+100001f23:	64 65 73 74 	jae	116
+100001f27:	72 75 	jb	117
+100001f29:	63  <unknown>
+100001f2a:	74 00 	je	0 <__objc_methname+0xB2>
+100001f2c:	73 65 	jae	101
+100001f2e:	74 4e 	je	78
+100001f30:	61  <unknown>
+100001f31:	6d 	insl	%dx, %es:(%rdi)
+100001f32:	65 3a 00 	cmpb	%gs:(%rax), %al
+100001f35:	61  <unknown>
+100001f36:	67 65 00 73 65 	addb	%dh, %gs:101(%ebx)
+100001f3b:	74 41 	je	65
+100001f3d:	67 65 3a 00 	cmpb	%gs:(%eax), %al
+100001f41:	5f 	popq	%rdi
+100001f42:	6e 	outsb	(%rsi), %dx
+100001f43:	61  <unknown>
+100001f44:	6d 	insl	%dx, %es:(%rdi)
+100001f45:	65 00 5f 61 	addb	%bl, %gs:97(%rdi)
+100001f49:	67 65 00  <unknown>
+Disassembly of section __TEXT,__objc_classname:
+__objc_classname:
+100001f4c:	44 6f 	outsl	(%rsi), %dx
+100001f4e:	67 00 57 6f 	addb	%dl, 111(%edi)
+100001f52:	6c 	insb	%dx, %es:(%rdi)
+100001f53:	66 44 6f 	outsw	(%rsi), %dx
+100001f56:	67 00 4c 48 54 	addb	%cl, 84(%eax,%ecx,2)
+100001f5b:	65 73 74 	jae	116
+100001f5e:	43 6f 	outsl	(%rsi), %dx
+100001f60:	6e 	outsb	(%rsi), %dx
+100001f61:	74 61 	je	97
+100001f63:	6e 	outsb	(%rsi), %dx
+100001f64:	69 65 72 00 4b 69 6e 	imull	$1852394240, 114(%rbp), %esp
+100001f6b:	64 00 41 6e 	addb	%al, %fs:110(%rcx)
+100001f6f:	69 6d 61 6c 00 01 00 	imull	$65644, 97(%rbp), %ebp
+Disassembly of section __TEXT,__objc_methtype:
+__objc_methtype:
+100001f76:	76 31 	jbe	49 <__objc_methtype+0x33>
+100001f78:	36 40 30 3a 	xorb	%dil, %ss:(%rdx)
+100001f7c:	38 00 	cmpb	%al, (%rax)
+100001f7e:	71 31 	jno	49 <__objc_methtype+0x3B>
+100001f80:	36 40 30 3a 	xorb	%dil, %ss:(%rdx)
+100001f84:	38 00 	cmpb	%al, (%rax)
+100001f86:	76 32 	jbe	50
+100001f88:	34 40 	xorb	$64, %al
+100001f8a:	30 3a 	xorb	%bh, (%rdx)
+100001f8c:	38 71 31 	cmpb	%dh, 49(%rcx)
+100001f8f:	36 00 71 00 	addb	%dh, %ss:(%rcx)
+100001f93:	40 31 36 	xorl	%esi, (%rsi)
+100001f96:	40 30 3a 	xorb	%dil, (%rdx)
+100001f99:	38 00 	cmpb	%al, (%rax)
+100001f9b:	76 32 	jbe	50
+100001f9d:	34 40 	xorb	$64, %al
+100001f9f:	30 3a 	xorb	%bh, (%rdx)
+100001fa1:	38 40 31 	cmpb	%al, 49(%rax)
+100001fa4:	36 00 40 22 	addb	%al, %ss:34(%rax)
+100001fa8:	4e 53 	pushq	%rbx
+100001faa:	53 	pushq	%rbx
+100001fab:	74 72 	je	114
+100001fad:	69 6e 67  <unknown>
+100001fb0:	22 00 	andb	(%rax), %al
+Disassembly of section __TEXT,__unwind_info:
+__unwind_info:
+100001fb4:	01 00 	addl	%eax, (%rax)
+100001fb6:	00 00 	addb	%al, (%rax)
+100001fb8:	1c 00 	sbbb	$0, %al
+100001fba:	00 00 	addb	%al, (%rax)
+100001fbc:	00 00 	addb	%al, (%rax)
+100001fbe:	00 00 	addb	%al, (%rax)
+100001fc0:	1c 00 	sbbb	$0, %al
+100001fc2:	00 00 	addb	%al, (%rax)
+100001fc4:	00 00 	addb	%al, (%rax)
+100001fc6:	00 00 	addb	%al, (%rax)
+100001fc8:	1c 00 	sbbb	$0, %al
+100001fca:	00 00 	addb	%al, (%rax)
+100001fcc:	02 00 	addb	(%rax), %al
+100001fce:	00 00 	addb	%al, (%rax)
+100001fd0:	d0 16 	rclb	(%rsi)
+100001fd2:	00 00 	addb	%al, (%rax)
+100001fd4:	34 00 	xorb	$0, %al
+100001fd6:	00 00 	addb	%al, (%rax)
+100001fd8:	34 00 	xorb	$0, %al
+100001fda:	00 00 	addb	%al, (%rax)
+100001fdc:	54 	pushq	%rsp
+100001fdd:	1c 00 	sbbb	$0, %al
+100001fdf:	00 00 	addb	%al, (%rax)
+100001fe1:	00 00 	addb	%al, (%rax)
+100001fe3:	00 34 00 	addb	%dh, (%rax,%rax)
+100001fe6:	00 00 	addb	%al, (%rax)
+100001fe8:	03 00 	addl	(%rax), %eax
+100001fea:	00 00 	addb	%al, (%rax)
+100001fec:	0c 00 	orb	$0, %al
+100001fee:	01 00 	addl	%eax, (%rax)
+100001ff0:	10 00 	adcb	%al, (%rax)
+100001ff2:	01 00 	addl	%eax, (%rax)
+100001ff4:	00 00 	addb	%al, (%rax)
+100001ff6:	00 00 	addb	%al, (%rax)
+100001ff8:	00 00 	addb	%al, (%rax)
+100001ffa:	00 01 	addb	%al, (%rcx)
+Disassembly of section __DATA,__nl_symbol_ptr:
+__nl_symbol_ptr:
+100002000:	00 00 	addb	%al, (%rax)
+100002002:	00 00 	addb	%al, (%rax)
+100002004:	00 00 	addb	%al, (%rax)
+100002006:	00 00 	addb	%al, (%rax)
+100002008:	00 00 	addb	%al, (%rax)
+10000200a:	00 00 	addb	%al, (%rax)
+10000200c:	00 00 	addb	%al, (%rax)
+10000200e:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__la_symbol_ptr:
+__la_symbol_ptr:
+100002010:	ac 	lodsb	(%rsi), %al
+100002011:	1c 00 	sbbb	$0, %al
+100002013:	00 01 	addb	%al, (%rcx)
+100002015:	00 00 	addb	%al, (%rax)
+100002017:	00 b6 1c 00 00 01 	addb	%dh, 16777244(%rsi)
+10000201d:	00 00 	addb	%al, (%rax)
+10000201f:	00 c0 	addb	%al, %al
+100002021:	1c 00 	sbbb	$0, %al
+100002023:	00 01 	addb	%al, (%rcx)
+100002025:	00 00 	addb	%al, (%rax)
+100002027:	00 ca 	addb	%cl, %dl
+100002029:	1c 00 	sbbb	$0, %al
+10000202b:	00 01 	addb	%al, (%rcx)
+10000202d:	00 00 	addb	%al, (%rax)
+10000202f:	00 d4 	addb	%dl, %ah
+100002031:	1c 00 	sbbb	$0, %al
+100002033:	00 01 	addb	%al, (%rcx)
+100002035:	00 00 	addb	%al, (%rax)
+100002037:	00 de 	addb	%bl, %dh
+100002039:	1c 00 	sbbb	$0, %al
+10000203b:	00 01 	addb	%al, (%rcx)
+10000203d:	00 00 	addb	%al, (%rax)
+10000203f:	00 e8 	addb	%ch, %al
+100002041:	1c 00 	sbbb	$0, %al
+100002043:	00 01 	addb	%al, (%rcx)
+100002045:	00 00 	addb	%al, (%rax)
+100002047:	00 f2 	addb	%dh, %dl
+100002049:	1c 00 	sbbb	$0, %al
+10000204b:	00 01 	addb	%al, (%rcx)
+10000204d:	00 00 	addb	%al, (%rax)
+10000204f:	00 fc 	addb	%bh, %ah
+100002051:	1c 00 	sbbb	$0, %al
+100002053:	00 01 	addb	%al, (%rcx)
+100002055:	00 00 	addb	%al, (%rax)
+100002057:	00 06 	addb	%al, (%rsi)
+100002059:	1d 00 00 01 00 	sbbl	$65536, %eax
+10000205e:	00 00 	addb	%al, (%rax)
+100002060:	10 1d 00 00 01 00 	adcb	%bl, 65536(%rip)
+100002066:	00 00 	addb	%al, (%rax)
+100002068:	1a 1d 00 00 01 00 	sbbb	65536(%rip), %bl
+10000206e:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__cfstring:
+__cfstring:
+100002070:	00 00 	addb	%al, (%rax)
+100002072:	00 00 	addb	%al, (%rax)
+100002074:	00 00 	addb	%al, (%rax)
+100002076:	00 00 	addb	%al, (%rax)
+100002078:	d0 07 	rolb	(%rdi)
+10000207a:	00 00 	addb	%al, (%rax)
+10000207c:	00 00 	addb	%al, (%rax)
+10000207e:	00 00 	addb	%al, (%rax)
+100002080:	1e  <unknown>
+100002081:	1e  <unknown>
+100002082:	00 00 	addb	%al, (%rax)
+100002084:	01 00 	addl	%eax, (%rax)
+100002086:	00 00 	addb	%al, (%rax)
+100002088:	0a 00 	orb	(%rax), %al
+10000208a:	00 00 	addb	%al, (%rax)
+10000208c:	00 00 	addb	%al, (%rax)
+10000208e:	00 00 	addb	%al, (%rax)
+100002090:	00 00 	addb	%al, (%rax)
+100002092:	00 00 	addb	%al, (%rax)
+100002094:	00 00 	addb	%al, (%rax)
+100002096:	00 00 	addb	%al, (%rax)
+100002098:	c8 07 00 00 	enter	$7, $0
+10000209c:	00 00 	addb	%al, (%rax)
+10000209e:	00 00 	addb	%al, (%rax)
+1000020a0:	ab 	stosl	%eax, %es:(%rdi)
+1000020a1:	1d 00 00 01 00 	sbbl	$65536, %eax
+1000020a6:	00 00 	addb	%al, (%rax)
+1000020a8:	0d 00 00 00 00 	orl	$0, %eax
+1000020ad:	00 00 	addb	%al, (%rax)
+1000020af:	00 00 	addb	%al, (%rax)
+1000020b1:	00 00 	addb	%al, (%rax)
+1000020b3:	00 00 	addb	%al, (%rax)
+1000020b5:	00 00 	addb	%al, (%rax)
+1000020b7:	00 d0 	addb	%dl, %al
+1000020b9:	07  <unknown>
+1000020ba:	00 00 	addb	%al, (%rax)
+1000020bc:	00 00 	addb	%al, (%rax)
+1000020be:	00 00 	addb	%al, (%rax)
+1000020c0:	34 1e 	xorb	$30, %al
+1000020c2:	00 00 	addb	%al, (%rax)
+1000020c4:	01 00 	addl	%eax, (%rax)
+1000020c6:	00 00 	addb	%al, (%rax)
+1000020c8:	13 00 	adcl	(%rax), %eax
+1000020ca:	00 00 	addb	%al, (%rax)
+1000020cc:	00 00 	addb	%al, (%rax)
+1000020ce:	00 00 	addb	%al, (%rax)
+1000020d0:	00 00 	addb	%al, (%rax)
+1000020d2:	00 00 	addb	%al, (%rax)
+1000020d4:	00 00 	addb	%al, (%rax)
+1000020d6:	00 00 	addb	%al, (%rax)
+1000020d8:	d0 07 	rolb	(%rdi)
+1000020da:	00 00 	addb	%al, (%rax)
+1000020dc:	00 00 	addb	%al, (%rax)
+1000020de:	00 00 	addb	%al, (%rax)
+1000020e0:	5c 	popq	%rsp
+1000020e1:	1e  <unknown>
+1000020e2:	00 00 	addb	%al, (%rax)
+1000020e4:	01 00 	addl	%eax, (%rax)
+1000020e6:	00 00 	addb	%al, (%rax)
+1000020e8:	04 00 	addb	$0, %al
+1000020ea:	00 00 	addb	%al, (%rax)
+1000020ec:	00 00 	addb	%al, (%rax)
+1000020ee:	00 00 	addb	%al, (%rax)
+1000020f0:	00 00 	addb	%al, (%rax)
+1000020f2:	00 00 	addb	%al, (%rax)
+1000020f4:	00 00 	addb	%al, (%rax)
+1000020f6:	00 00 	addb	%al, (%rax)
+1000020f8:	d0 07 	rolb	(%rdi)
+1000020fa:	00 00 	addb	%al, (%rax)
+1000020fc:	00 00 	addb	%al, (%rax)
+1000020fe:	00 00 	addb	%al, (%rax)
+100002100:	66 1e  <unknown>
+100002102:	00 00 	addb	%al, (%rax)
+100002104:	01 00 	addl	%eax, (%rax)
+100002106:	00 00 	addb	%al, (%rax)
+100002108:	09 00 	orl	%eax, (%rax)
+10000210a:	00 00 	addb	%al, (%rax)
+10000210c:	00 00 	addb	%al, (%rax)
+10000210e:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_classlist:
+__objc_classlist:
+100002110:	10 27 	adcb	%ah, (%rdi)
+100002112:	00 00 	addb	%al, (%rax)
+100002114:	01 00 	addl	%eax, (%rax)
+100002116:	00 00 	addb	%al, (%rax)
+100002118:	60  <unknown>
+100002119:	27  <unknown>
+10000211a:	00 00 	addb	%al, (%rax)
+10000211c:	01 00 	addl	%eax, (%rax)
+10000211e:	00 00 	addb	%al, (%rax)
+100002120:	b0 27 	movb	$39, %al
+100002122:	00 00 	addb	%al, (%rax)
+100002124:	01 00 	addl	%eax, (%rax)
+100002126:	00 00 	addb	%al, (%rax)
+100002128:	00 28 	addb	%ch, (%rax)
+10000212a:	00 00 	addb	%al, (%rax)
+10000212c:	01 00 	addl	%eax, (%rax)
+10000212e:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_nlclslist:
+__objc_nlclslist:
+100002130:	10 27 	adcb	%ah, (%rdi)
+100002132:	00 00 	addb	%al, (%rax)
+100002134:	01 00 	addl	%eax, (%rax)
+100002136:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_imageinfo:
+__objc_imageinfo:
+100002138:	00 00 	addb	%al, (%rax)
+10000213a:	00 00 	addb	%al, (%rax)
+10000213c:	40 00 00 	addb	%al, (%rax)
+10000213f:	00  <unknown>
+Disassembly of section __DATA,__objc_const:
+__objc_const:
+100002140:	18 00 	sbbb	%al, (%rax)
+100002142:	00 00 	addb	%al, (%rax)
+100002144:	06  <unknown>
+100002145:	00 00 	addb	%al, (%rax)
+100002147:	00 f5 	addb	%dh, %ch
+100002149:	1e  <unknown>
+10000214a:	00 00 	addb	%al, (%rax)
+10000214c:	01 00 	addl	%eax, (%rax)
+10000214e:	00 00 	addb	%al, (%rax)
+100002150:	93 	xchgl	%ebx, %eax
+100002151:	1f  <unknown>
+100002152:	00 00 	addb	%al, (%rax)
+100002154:	01 00 	addl	%eax, (%rax)
+100002156:	00 00 	addb	%al, (%rax)
+100002158:	40 1a 00 	sbbb	(%rax), %al
+10000215b:	00 01 	addb	%al, (%rcx)
+10000215d:	00 00 	addb	%al, (%rax)
+10000215f:	00 fd 	addb	%bh, %ch
+100002161:	1e  <unknown>
+100002162:	00 00 	addb	%al, (%rax)
+100002164:	01 00 	addl	%eax, (%rax)
+100002166:	00 00 	addb	%al, (%rax)
+100002168:	9b 	wait
+100002169:	1f  <unknown>
+10000216a:	00 00 	addb	%al, (%rax)
+10000216c:	01 00 	addl	%eax, (%rax)
+10000216e:	00 00 	addb	%al, (%rax)
+100002170:	80 1a 00 	sbbb	$0, (%rdx)
+100002173:	00 01 	addb	%al, (%rcx)
+100002175:	00 00 	addb	%al, (%rax)
+100002177:	00 09 	addb	%cl, (%rcx)
+100002179:	1f  <unknown>
+10000217a:	00 00 	addb	%al, (%rax)
+10000217c:	01 00 	addl	%eax, (%rax)
+10000217e:	00 00 	addb	%al, (%rax)
+100002180:	76 1f 	jbe	31 <__objc_const+0x61>
+100002182:	00 00 	addb	%al, (%rax)
+100002184:	01 00 	addl	%eax, (%rax)
+100002186:	00 00 	addb	%al, (%rax)
+100002188:	e0 1a 	loopne	26
+10000218a:	00 00 	addb	%al, (%rax)
+10000218c:	01 00 	addl	%eax, (%rax)
+10000218e:	00 00 	addb	%al, (%rax)
+100002190:	9c 	pushfq
+100002191:	1e  <unknown>
+100002192:	00 00 	addb	%al, (%rax)
+100002194:	01 00 	addl	%eax, (%rax)
+100002196:	00 00 	addb	%al, (%rax)
+100002198:	76 1f 	jbe	31 <__objc_const+0x79>
+10000219a:	00 00 	addb	%al, (%rax)
+10000219c:	01 00 	addl	%eax, (%rax)
+10000219e:	00 00 	addb	%al, (%rax)
+1000021a0:	60  <unknown>
+1000021a1:	17  <unknown>
+1000021a2:	00 00 	addb	%al, (%rax)
+1000021a4:	01 00 	addl	%eax, (%rax)
+1000021a6:	00 00 	addb	%al, (%rax)
+1000021a8:	a0 1e 00 00 01 00 00 00 7e 	movabsb	9079256848795697182, %al
+1000021b1:	1f  <unknown>
+1000021b2:	00 00 	addb	%al, (%rax)
+1000021b4:	01 00 	addl	%eax, (%rax)
+1000021b6:	00 00 	addb	%al, (%rax)
+1000021b8:	e0 17 	loopne	23
+1000021ba:	00 00 	addb	%al, (%rax)
+1000021bc:	01 00 	addl	%eax, (%rax)
+1000021be:	00 00 	addb	%al, (%rax)
+1000021c0:	a5 	movsl	(%rsi), %es:(%rdi)
+1000021c1:	1e  <unknown>
+1000021c2:	00 00 	addb	%al, (%rax)
+1000021c4:	01 00 	addl	%eax, (%rax)
+1000021c6:	00 00 	addb	%al, (%rax)
+1000021c8:	86 1f 	xchgb	%bl, (%rdi)
+1000021ca:	00 00 	addb	%al, (%rax)
+1000021cc:	01 00 	addl	%eax, (%rax)
+1000021ce:	00 00 	addb	%al, (%rax)
+1000021d0:	00 18 	addb	%bl, (%rax)
+1000021d2:	00 00 	addb	%al, (%rax)
+1000021d4:	01 00 	addl	%eax, (%rax)
+1000021d6:	00 00 	addb	%al, (%rax)
+1000021d8:	10 00 	adcb	%al, (%rax)
+1000021da:	00 00 	addb	%al, (%rax)
+1000021dc:	02 00 	addb	(%rax), %al
+1000021de:	00 00 	addb	%al, (%rax)
+1000021e0:	cc 	int3
+1000021e1:	1d 00 00 01 00 	sbbl	$65536, %eax
+1000021e6:	00 00 	addb	%al, (%rax)
+1000021e8:	d4  <unknown>
+1000021e9:	1d 00 00 01 00 	sbbl	$65536, %eax
+1000021ee:	00 00 	addb	%al, (%rax)
+1000021f0:	9a  <unknown>
+1000021f1:	1d 00 00 01 00 	sbbl	$65536, %eax
+1000021f6:	00 00 	addb	%al, (%rax)
+1000021f8:	9f 	lahf
+1000021f9:	1d 00 00 01 00 	sbbl	$65536, %eax
+1000021fe:	00 00 	addb	%al, (%rax)
+100002200:	18 00 	sbbb	%al, (%rax)
+100002202:	00 00 	addb	%al, (%rax)
+100002204:	03 00 	addl	(%rax), %eax
+100002206:	00 00 	addb	%al, (%rax)
+100002208:	85 1e 	testl	(%rsi), %ebx
+10000220a:	00 00 	addb	%al, (%rax)
+10000220c:	01 00 	addl	%eax, (%rax)
+10000220e:	00 00 	addb	%al, (%rax)
+100002210:	76 1f 	jbe	31 <__objc_const+0xF1>
+100002212:	00 00 	addb	%al, (%rax)
+100002214:	01 00 	addl	%eax, (%rax)
+100002216:	00 00 	addb	%al, (%rax)
+100002218:	d0 16 	rclb	(%rsi)
+10000221a:	00 00 	addb	%al, (%rax)
+10000221c:	01 00 	addl	%eax, (%rax)
+10000221e:	00 00 	addb	%al, (%rax)
+100002220:	8a 1e 	movb	(%rsi), %bl
+100002222:	00 00 	addb	%al, (%rax)
+100002224:	01 00 	addl	%eax, (%rax)
+100002226:	00 00 	addb	%al, (%rax)
+100002228:	76 1f 	jbe	31 <__objc_const+0x109>
+10000222a:	00 00 	addb	%al, (%rax)
+10000222c:	01 00 	addl	%eax, (%rax)
+10000222e:	00 00 	addb	%al, (%rax)
+100002230:	00 17 	addb	%dl, (%rdi)
+100002232:	00 00 	addb	%al, (%rax)
+100002234:	01 00 	addl	%eax, (%rax)
+100002236:	00 00 	addb	%al, (%rax)
+100002238:	95 	xchgl	%ebp, %eax
+100002239:	1e  <unknown>
+10000223a:	00 00 	addb	%al, (%rax)
+10000223c:	01 00 	addl	%eax, (%rax)
+10000223e:	00 00 	addb	%al, (%rax)
+100002240:	76 1f 	jbe	31 <__objc_const+0x121>
+100002242:	00 00 	addb	%al, (%rax)
+100002244:	01 00 	addl	%eax, (%rax)
+100002246:	00 00 	addb	%al, (%rax)
+100002248:	30 17 	xorb	%dl, (%rdi)
+10000224a:	00 00 	addb	%al, (%rax)
+10000224c:	01 00 	addl	%eax, (%rax)
+10000224e:	00 00 	addb	%al, (%rax)
+100002250:	81 00 00 00 28 00 	addl	$2621440, (%rax)
+100002256:	00 00 	addb	%al, (%rax)
+100002258:	28 00 	subb	%al, (%rax)
+10000225a:	00 00 	addb	%al, (%rax)
+10000225c:	00 00 	addb	%al, (%rax)
+10000225e:	00 00 	addb	%al, (%rax)
+100002260:	00 00 	addb	%al, (%rax)
+100002262:	00 00 	addb	%al, (%rax)
+100002264:	00 00 	addb	%al, (%rax)
+100002266:	00 00 	addb	%al, (%rax)
+100002268:	4c 1f  <unknown>
+10000226a:	00 00 	addb	%al, (%rax)
+10000226c:	01 00 	addl	%eax, (%rax)
+10000226e:	00 00 	addb	%al, (%rax)
+100002270:	00 22 	addb	%ah, (%rdx)
+100002272:	00 00 	addb	%al, (%rax)
+100002274:	01 00 	addl	%eax, (%rax)
+100002276:	00 00 	addb	%al, (%rax)
+100002278:	00 00 	addb	%al, (%rax)
+10000227a:	00 00 	addb	%al, (%rax)
+10000227c:	00 00 	addb	%al, (%rax)
+10000227e:	00 00 	addb	%al, (%rax)
+100002280:	00 00 	addb	%al, (%rax)
+100002282:	00 00 	addb	%al, (%rax)
+100002284:	00 00 	addb	%al, (%rax)
+100002286:	00 00 	addb	%al, (%rax)
+100002288:	00 00 	addb	%al, (%rax)
+10000228a:	00 00 	addb	%al, (%rax)
+10000228c:	00 00 	addb	%al, (%rax)
+10000228e:	00 00 	addb	%al, (%rax)
+100002290:	00 00 	addb	%al, (%rax)
+100002292:	00 00 	addb	%al, (%rax)
+100002294:	00 00 	addb	%al, (%rax)
+100002296:	00 00 	addb	%al, (%rax)
+100002298:	20 00 	andb	%al, (%rax)
+10000229a:	00 00 	addb	%al, (%rax)
+10000229c:	01 00 	addl	%eax, (%rax)
+10000229e:	00 00 	addb	%al, (%rax)
+1000022a0:	c8 26 00 00 	enter	$38, $0
+1000022a4:	01 00 	addl	%eax, (%rax)
+1000022a6:	00 00 	addb	%al, (%rax)
+1000022a8:	ae 	scasb	%es:(%rdi), %al
+1000022a9:	1e  <unknown>
+1000022aa:	00 00 	addb	%al, (%rax)
+1000022ac:	01 00 	addl	%eax, (%rax)
+1000022ae:	00 00 	addb	%al, (%rax)
+1000022b0:	91 	xchgl	%ecx, %eax
+1000022b1:	1f  <unknown>
+1000022b2:	00 00 	addb	%al, (%rax)
+1000022b4:	01 00 	addl	%eax, (%rax)
+1000022b6:	00 00 	addb	%al, (%rax)
+1000022b8:	03 00 	addl	(%rax), %eax
+1000022ba:	00 00 	addb	%al, (%rax)
+1000022bc:	08 00 	orb	%al, (%rax)
+1000022be:	00 00 	addb	%al, (%rax)
+1000022c0:	80 00 00 	addb	$0, (%rax)
+1000022c3:	00 08 	addb	%cl, (%rax)
+1000022c5:	00 00 	addb	%al, (%rax)
+1000022c7:	00 10 	addb	%dl, (%rax)
+1000022c9:	00 00 	addb	%al, (%rax)
+1000022cb:	00 00 	addb	%al, (%rax)
+1000022cd:	00 00 	addb	%al, (%rax)
+1000022cf:	00 00 	addb	%al, (%rax)
+1000022d1:	00 00 	addb	%al, (%rax)
+1000022d3:	00 00 	addb	%al, (%rax)
+1000022d5:	00 00 	addb	%al, (%rax)
+1000022d7:	00 4c 1f 00 	addb	%cl, (%rdi,%rbx)
+1000022db:	00 01 	addb	%al, (%rcx)
+1000022dd:	00 00 	addb	%al, (%rax)
+1000022df:	00 40 21 	addb	%al, 33(%rax)
+1000022e2:	00 00 	addb	%al, (%rax)
+1000022e4:	01 00 	addl	%eax, (%rax)
+1000022e6:	00 00 	addb	%al, (%rax)
+1000022e8:	00 00 	addb	%al, (%rax)
+1000022ea:	00 00 	addb	%al, (%rax)
+1000022ec:	00 00 	addb	%al, (%rax)
+1000022ee:	00 00 	addb	%al, (%rax)
+1000022f0:	98 	cwtl
+1000022f1:	22 00 	andb	(%rax), %al
+1000022f3:	00 01 	addb	%al, (%rcx)
+1000022f5:	00 00 	addb	%al, (%rax)
+1000022f7:	00 00 	addb	%al, (%rax)
+1000022f9:	00 00 	addb	%al, (%rax)
+1000022fb:	00 00 	addb	%al, (%rax)
+1000022fd:	00 00 	addb	%al, (%rax)
+1000022ff:	00 d8 	addb	%bl, %al
+100002301:	21 00 	andl	%eax, (%rax)
+100002303:	00 01 	addb	%al, (%rcx)
+100002305:	00 00 	addb	%al, (%rax)
+100002307:	00 81 00 00 00 28 	addb	%al, 671088640(%rcx)
+10000230d:	00 00 	addb	%al, (%rax)
+10000230f:	00 28 	addb	%ch, (%rax)
+100002311:	00 00 	addb	%al, (%rax)
+100002313:	00 00 	addb	%al, (%rax)
+100002315:	00 00 	addb	%al, (%rax)
+100002317:	00 00 	addb	%al, (%rax)
+100002319:	00 00 	addb	%al, (%rax)
+10000231b:	00 00 	addb	%al, (%rax)
+10000231d:	00 00 	addb	%al, (%rax)
+10000231f:	00 50 1f 	addb	%dl, 31(%rax)
+100002322:	00 00 	addb	%al, (%rax)
+100002324:	01 00 	addl	%eax, (%rax)
+100002326:	00 00 	addb	%al, (%rax)
+100002328:	00 00 	addb	%al, (%rax)
+10000232a:	00 00 	addb	%al, (%rax)
+10000232c:	00 00 	addb	%al, (%rax)
+10000232e:	00 00 	addb	%al, (%rax)
+100002330:	00 00 	addb	%al, (%rax)
+100002332:	00 00 	addb	%al, (%rax)
+100002334:	00 00 	addb	%al, (%rax)
+100002336:	00 00 	addb	%al, (%rax)
+100002338:	00 00 	addb	%al, (%rax)
+10000233a:	00 00 	addb	%al, (%rax)
+10000233c:	00 00 	addb	%al, (%rax)
+10000233e:	00 00 	addb	%al, (%rax)
+100002340:	00 00 	addb	%al, (%rax)
+100002342:	00 00 	addb	%al, (%rax)
+100002344:	00 00 	addb	%al, (%rax)
+100002346:	00 00 	addb	%al, (%rax)
+100002348:	00 00 	addb	%al, (%rax)
+10000234a:	00 00 	addb	%al, (%rax)
+10000234c:	00 00 	addb	%al, (%rax)
+10000234e:	00 00 	addb	%al, (%rax)
+100002350:	18 00 	sbbb	%al, (%rax)
+100002352:	00 00 	addb	%al, (%rax)
+100002354:	03 00 	addl	(%rax), %eax
+100002356:	00 00 	addb	%al, (%rax)
+100002358:	c2 1e 00 	retq	$30
+10000235b:	00 01 	addb	%al, (%rcx)
+10000235d:	00 00 	addb	%al, (%rax)
+10000235f:	00 76 1f 	addb	%dh, 31(%rsi)
+100002362:	00 00 	addb	%al, (%rax)
+100002364:	01 00 	addl	%eax, (%rax)
+100002366:	00 00 	addb	%al, (%rax)
+100002368:	b0 18 	movb	$24, %al
+10000236a:	00 00 	addb	%al, (%rax)
+10000236c:	01 00 	addl	%eax, (%rax)
+10000236e:	00 00 	addb	%al, (%rax)
+100002370:	ca 1e 00 	lretl	$30
+100002373:	00 01 	addb	%al, (%rcx)
+100002375:	00 00 	addb	%al, (%rax)
+100002377:	00 7e 1f 	addb	%bh, 31(%rsi)
+10000237a:	00 00 	addb	%al, (%rax)
+10000237c:	01 00 	addl	%eax, (%rax)
+10000237e:	00 00 	addb	%al, (%rax)
+100002380:	30 19 	xorb	%bl, (%rcx)
+100002382:	00 00 	addb	%al, (%rax)
+100002384:	01 00 	addl	%eax, (%rax)
+100002386:	00 00 	addb	%al, (%rax)
+100002388:	d0 1e 	rcrb	(%rsi)
+10000238a:	00 00 	addb	%al, (%rax)
+10000238c:	01 00 	addl	%eax, (%rax)
+10000238e:	00 00 	addb	%al, (%rax)
+100002390:	86 1f 	xchgb	%bl, (%rdi)
+100002392:	00 00 	addb	%al, (%rax)
+100002394:	01 00 	addl	%eax, (%rax)
+100002396:	00 00 	addb	%al, (%rax)
+100002398:	50 	pushq	%rax
+100002399:	19 00 	sbbl	%eax, (%rax)
+10000239b:	00 01 	addb	%al, (%rcx)
+10000239d:	00 00 	addb	%al, (%rax)
+10000239f:	00 20 	addb	%ah, (%rax)
+1000023a1:	00 00 	addb	%al, (%rax)
+1000023a3:	00 01 	addb	%al, (%rcx)
+1000023a5:	00 00 	addb	%al, (%rax)
+1000023a7:	00 d0 	addb	%dl, %al
+1000023a9:	26 00 00 	addb	%al, %es:(%rax)
+1000023ac:	01 00 	addl	%eax, (%rax)
+1000023ae:	00 00 	addb	%al, (%rax)
+1000023b0:	da 1e 	ficompl	(%rsi)
+1000023b2:	00 00 	addb	%al, (%rax)
+1000023b4:	01 00 	addl	%eax, (%rax)
+1000023b6:	00 00 	addb	%al, (%rax)
+1000023b8:	91 	xchgl	%ecx, %eax
+1000023b9:	1f  <unknown>
+1000023ba:	00 00 	addb	%al, (%rax)
+1000023bc:	01 00 	addl	%eax, (%rax)
+1000023be:	00 00 	addb	%al, (%rax)
+1000023c0:	03 00 	addl	(%rax), %eax
+1000023c2:	00 00 	addb	%al, (%rax)
+1000023c4:	08 00 	orb	%al, (%rax)
+1000023c6:	00 00 	addb	%al, (%rax)
+1000023c8:	10 00 	adcb	%al, (%rax)
+1000023ca:	00 00 	addb	%al, (%rax)
+1000023cc:	01 00 	addl	%eax, (%rax)
+1000023ce:	00 00 	addb	%al, (%rax)
+1000023d0:	b9 1d 00 00 01 	movl	$16777245, %ecx
+1000023d5:	00 00 	addb	%al, (%rax)
+1000023d7:	00 bf 1d 00 00 01 	addb	%bh, 16777245(%rdi)
+1000023dd:	00 00 	addb	%al, (%rax)
+1000023df:	00 80 00 00 00 08 	addb	%al, 134217728(%rax)
+1000023e5:	00 00 	addb	%al, (%rax)
+1000023e7:	00 10 	addb	%dl, (%rax)
+1000023e9:	00 00 	addb	%al, (%rax)
+1000023eb:	00 00 	addb	%al, (%rax)
+1000023ed:	00 00 	addb	%al, (%rax)
+1000023ef:	00 00 	addb	%al, (%rax)
+1000023f1:	00 00 	addb	%al, (%rax)
+1000023f3:	00 00 	addb	%al, (%rax)
+1000023f5:	00 00 	addb	%al, (%rax)
+1000023f7:	00 50 1f 	addb	%dl, 31(%rax)
+1000023fa:	00 00 	addb	%al, (%rax)
+1000023fc:	01 00 	addl	%eax, (%rax)
+1000023fe:	00 00 	addb	%al, (%rax)
+100002400:	50 	pushq	%rax
+100002401:	23 00 	andl	(%rax), %eax
+100002403:	00 01 	addb	%al, (%rcx)
+100002405:	00 00 	addb	%al, (%rax)
+100002407:	00 00 	addb	%al, (%rax)
+100002409:	00 00 	addb	%al, (%rax)
+10000240b:	00 00 	addb	%al, (%rax)
+10000240d:	00 00 	addb	%al, (%rax)
+10000240f:	00 a0 23 00 00 01 	addb	%ah, 16777251(%rax)
+100002415:	00 00 	addb	%al, (%rax)
+100002417:	00 00 	addb	%al, (%rax)
+100002419:	00 00 	addb	%al, (%rax)
+10000241b:	00 00 	addb	%al, (%rax)
+10000241d:	00 00 	addb	%al, (%rax)
+10000241f:	00 c8 	addb	%cl, %al
+100002421:	23 00 	andl	(%rax), %eax
+100002423:	00 01 	addb	%al, (%rcx)
+100002425:	00 00 	addb	%al, (%rax)
+100002427:	00 81 00 00 00 28 	addb	%al, 671088640(%rcx)
+10000242d:	00 00 	addb	%al, (%rax)
+10000242f:	00 28 	addb	%ch, (%rax)
+100002431:	00 00 	addb	%al, (%rax)
+100002433:	00 00 	addb	%al, (%rax)
+100002435:	00 00 	addb	%al, (%rax)
+100002437:	00 00 	addb	%al, (%rax)
+100002439:	00 00 	addb	%al, (%rax)
+10000243b:	00 00 	addb	%al, (%rax)
+10000243d:	00 00 	addb	%al, (%rax)
+10000243f:	00 58 1f 	addb	%bl, 31(%rax)
+100002442:	00 00 	addb	%al, (%rax)
+100002444:	01 00 	addl	%eax, (%rax)
+100002446:	00 00 	addb	%al, (%rax)
+100002448:	00 00 	addb	%al, (%rax)
+10000244a:	00 00 	addb	%al, (%rax)
+10000244c:	00 00 	addb	%al, (%rax)
+10000244e:	00 00 	addb	%al, (%rax)
+100002450:	00 00 	addb	%al, (%rax)
+100002452:	00 00 	addb	%al, (%rax)
+100002454:	00 00 	addb	%al, (%rax)
+100002456:	00 00 	addb	%al, (%rax)
+100002458:	00 00 	addb	%al, (%rax)
+10000245a:	00 00 	addb	%al, (%rax)
+10000245c:	00 00 	addb	%al, (%rax)
+10000245e:	00 00 	addb	%al, (%rax)
+100002460:	00 00 	addb	%al, (%rax)
+100002462:	00 00 	addb	%al, (%rax)
+100002464:	00 00 	addb	%al, (%rax)
+100002466:	00 00 	addb	%al, (%rax)
+100002468:	00 00 	addb	%al, (%rax)
+10000246a:	00 00 	addb	%al, (%rax)
+10000246c:	00 00 	addb	%al, (%rax)
+10000246e:	00 00 	addb	%al, (%rax)
+100002470:	18 00 	sbbb	%al, (%rax)
+100002472:	00 00 	addb	%al, (%rax)
+100002474:	02 00 	addb	(%rax), %al
+100002476:	00 00 	addb	%al, (%rax)
+100002478:	b8 1e 00 00 01 	movl	$16777246, %eax
+10000247d:	00 00 	addb	%al, (%rax)
+10000247f:	00 76 1f 	addb	%dh, 31(%rsi)
+100002482:	00 00 	addb	%al, (%rax)
+100002484:	01 00 	addl	%eax, (%rax)
+100002486:	00 00 	addb	%al, (%rax)
+100002488:	80 19 00 	sbbb	$0, (%rcx)
+10000248b:	00 01 	addb	%al, (%rcx)
+10000248d:	00 00 	addb	%al, (%rax)
+10000248f:	00 e1 	addb	%ah, %cl
+100002491:	1e  <unknown>
+100002492:	00 00 	addb	%al, (%rax)
+100002494:	01 00 	addl	%eax, (%rax)
+100002496:	00 00 	addb	%al, (%rax)
+100002498:	76 1f 	jbe	31 <__objc_const+0x379>
+10000249a:	00 00 	addb	%al, (%rax)
+10000249c:	01 00 	addl	%eax, (%rax)
+10000249e:	00 00 	addb	%al, (%rax)
+1000024a0:	c0 19 00 	rcrb	$0, (%rcx)
+1000024a3:	00 01 	addb	%al, (%rcx)
+1000024a5:	00 00 	addb	%al, (%rax)
+1000024a7:	00 80 00 00 00 08 	addb	%al, 134217728(%rax)
+1000024ad:	00 00 	addb	%al, (%rax)
+1000024af:	00 08 	addb	%cl, (%rax)
+1000024b1:	00 00 	addb	%al, (%rax)
+1000024b3:	00 00 	addb	%al, (%rax)
+1000024b5:	00 00 	addb	%al, (%rax)
+1000024b7:	00 00 	addb	%al, (%rax)
+1000024b9:	00 00 	addb	%al, (%rax)
+1000024bb:	00 00 	addb	%al, (%rax)
+1000024bd:	00 00 	addb	%al, (%rax)
+1000024bf:	00 58 1f 	addb	%bl, 31(%rax)
+1000024c2:	00 00 	addb	%al, (%rax)
+1000024c4:	01 00 	addl	%eax, (%rax)
+1000024c6:	00 00 	addb	%al, (%rax)
+1000024c8:	70 24 	jo	36 <__objc_const+0x3AE>
+1000024ca:	00 00 	addb	%al, (%rax)
+1000024cc:	01 00 	addl	%eax, (%rax)
+1000024ce:	00 00 	addb	%al, (%rax)
+1000024d0:	00 00 	addb	%al, (%rax)
+1000024d2:	00 00 	addb	%al, (%rax)
+1000024d4:	00 00 	addb	%al, (%rax)
+1000024d6:	00 00 	addb	%al, (%rax)
+1000024d8:	00 00 	addb	%al, (%rax)
+1000024da:	00 00 	addb	%al, (%rax)
+1000024dc:	00 00 	addb	%al, (%rax)
+1000024de:	00 00 	addb	%al, (%rax)
+1000024e0:	00 00 	addb	%al, (%rax)
+1000024e2:	00 00 	addb	%al, (%rax)
+1000024e4:	00 00 	addb	%al, (%rax)
+1000024e6:	00 00 	addb	%al, (%rax)
+1000024e8:	00 00 	addb	%al, (%rax)
+1000024ea:	00 00 	addb	%al, (%rax)
+1000024ec:	00 00 	addb	%al, (%rax)
+1000024ee:	00 00 	addb	%al, (%rax)
+1000024f0:	85 01 	testl	(%rcx), %eax
+1000024f2:	00 00 	addb	%al, (%rax)
+1000024f4:	28 00 	subb	%al, (%rax)
+1000024f6:	00 00 	addb	%al, (%rax)
+1000024f8:	28 00 	subb	%al, (%rax)
+1000024fa:	00 00 	addb	%al, (%rax)
+1000024fc:	00 00 	addb	%al, (%rax)
+1000024fe:	00 00 	addb	%al, (%rax)
+100002500:	00 00 	addb	%al, (%rax)
+100002502:	00 00 	addb	%al, (%rax)
+100002504:	00 00 	addb	%al, (%rax)
+100002506:	00 00 	addb	%al, (%rax)
+100002508:	6d 	insl	%dx, %es:(%rdi)
+100002509:	1f  <unknown>
+10000250a:	00 00 	addb	%al, (%rax)
+10000250c:	01 00 	addl	%eax, (%rax)
+10000250e:	00 00 	addb	%al, (%rax)
+100002510:	00 00 	addb	%al, (%rax)
+100002512:	00 00 	addb	%al, (%rax)
+100002514:	00 00 	addb	%al, (%rax)
+100002516:	00 00 	addb	%al, (%rax)
+100002518:	00 00 	addb	%al, (%rax)
+10000251a:	00 00 	addb	%al, (%rax)
+10000251c:	00 00 	addb	%al, (%rax)
+10000251e:	00 00 	addb	%al, (%rax)
+100002520:	00 00 	addb	%al, (%rax)
+100002522:	00 00 	addb	%al, (%rax)
+100002524:	00 00 	addb	%al, (%rax)
+100002526:	00 00 	addb	%al, (%rax)
+100002528:	00 00 	addb	%al, (%rax)
+10000252a:	00 00 	addb	%al, (%rax)
+10000252c:	00 00 	addb	%al, (%rax)
+10000252e:	00 00 	addb	%al, (%rax)
+100002530:	00 00 	addb	%al, (%rax)
+100002532:	00 00 	addb	%al, (%rax)
+100002534:	00 00 	addb	%al, (%rax)
+100002536:	00 00 	addb	%al, (%rax)
+100002538:	18 00 	sbbb	%al, (%rax)
+10000253a:	00 00 	addb	%al, (%rax)
+10000253c:	06  <unknown>
+10000253d:	00 00 	addb	%al, (%rax)
+10000253f:	00 1a 	addb	%bl, (%rdx)
+100002541:	1f  <unknown>
+100002542:	00 00 	addb	%al, (%rax)
+100002544:	01 00 	addl	%eax, (%rax)
+100002546:	00 00 	addb	%al, (%rax)
+100002548:	76 1f 	jbe	31 <__objc_const+0x429>
+10000254a:	00 00 	addb	%al, (%rax)
+10000254c:	01 00 	addl	%eax, (%rax)
+10000254e:	00 00 	addb	%al, (%rax)
+100002550:	10 1b 	adcb	%bl, (%rbx)
+100002552:	00 00 	addb	%al, (%rax)
+100002554:	01 00 	addl	%eax, (%rax)
+100002556:	00 00 	addb	%al, (%rax)
+100002558:	1e  <unknown>
+100002559:	1f  <unknown>
+10000255a:	00 00 	addb	%al, (%rax)
+10000255c:	01 00 	addl	%eax, (%rax)
+10000255e:	00 00 	addb	%al, (%rax)
+100002560:	76 1f 	jbe	31 <__objc_const+0x441>
+100002562:	00 00 	addb	%al, (%rax)
+100002564:	01 00 	addl	%eax, (%rax)
+100002566:	00 00 	addb	%al, (%rax)
+100002568:	20 1c 00 	andb	%bl, (%rax,%rax)
+10000256b:	00 01 	addb	%al, (%rcx)
+10000256d:	00 00 	addb	%al, (%rax)
+10000256f:	00 80 1e 00 00 01 	addb	%al, 16777246(%rax)
+100002575:	00 00 	addb	%al, (%rax)
+100002577:	00 93 1f 00 00 01 	addb	%dl, 16777247(%rbx)
+10000257d:	00 00 	addb	%al, (%rax)
+10000257f:	00 60 1b 	addb	%ah, 27(%rax)
+100002582:	00 00 	addb	%al, (%rax)
+100002584:	01 00 	addl	%eax, (%rax)
+100002586:	00 00 	addb	%al, (%rax)
+100002588:	2c 1f 	subb	$31, %al
+10000258a:	00 00 	addb	%al, (%rax)
+10000258c:	01 00 	addl	%eax, (%rax)
+10000258e:	00 00 	addb	%al, (%rax)
+100002590:	9b 	wait
+100002591:	1f  <unknown>
+100002592:	00 00 	addb	%al, (%rax)
+100002594:	01 00 	addl	%eax, (%rax)
+100002596:	00 00 	addb	%al, (%rax)
+100002598:	90 	nop
+100002599:	1b 00 	sbbl	(%rax), %eax
+10000259b:	00 01 	addb	%al, (%rcx)
+10000259d:	00 00 	addb	%al, (%rax)
+10000259f:	00 35 1f 00 00 01 	addb	%dh, 16777247(%rip)
+1000025a5:	00 00 	addb	%al, (%rax)
+1000025a7:	00 7e 1f 	addb	%bh, 31(%rsi)
+1000025aa:	00 00 	addb	%al, (%rax)
+1000025ac:	01 00 	addl	%eax, (%rax)
+1000025ae:	00 00 	addb	%al, (%rax)
+1000025b0:	d0 1b 	rcrb	(%rbx)
+1000025b2:	00 00 	addb	%al, (%rax)
+1000025b4:	01 00 	addl	%eax, (%rax)
+1000025b6:	00 00 	addb	%al, (%rax)
+1000025b8:	39 1f 	cmpl	%ebx, (%rdi)
+1000025ba:	00 00 	addb	%al, (%rax)
+1000025bc:	01 00 	addl	%eax, (%rax)
+1000025be:	00 00 	addb	%al, (%rax)
+1000025c0:	86 1f 	xchgb	%bl, (%rdi)
+1000025c2:	00 00 	addb	%al, (%rax)
+1000025c4:	01 00 	addl	%eax, (%rax)
+1000025c6:	00 00 	addb	%al, (%rax)
+1000025c8:	f0 	lock
+1000025c9:	1b 00 	sbbl	(%rax), %eax
+1000025cb:	00 01 	addb	%al, (%rcx)
+1000025cd:	00 00 	addb	%al, (%rax)
+1000025cf:	00 20 	addb	%ah, (%rax)
+1000025d1:	00 00 	addb	%al, (%rax)
+1000025d3:	00 02 	addb	%al, (%rdx)
+1000025d5:	00 00 	addb	%al, (%rax)
+1000025d7:	00 d8 	addb	%bl, %al
+1000025d9:	26 00 00 	addb	%al, %es:(%rax)
+1000025dc:	01 00 	addl	%eax, (%rax)
+1000025de:	00 00 	addb	%al, (%rax)
+1000025e0:	41 1f  <unknown>
+1000025e2:	00 00 	addb	%al, (%rax)
+1000025e4:	01 00 	addl	%eax, (%rax)
+1000025e6:	00 00 	addb	%al, (%rax)
+1000025e8:	a6 	cmpsb	%es:(%rdi), (%rsi)
+1000025e9:	1f  <unknown>
+1000025ea:	00 00 	addb	%al, (%rax)
+1000025ec:	01 00 	addl	%eax, (%rax)
+1000025ee:	00 00 	addb	%al, (%rax)
+1000025f0:	03 00 	addl	(%rax), %eax
+1000025f2:	00 00 	addb	%al, (%rax)
+1000025f4:	08 00 	orb	%al, (%rax)
+1000025f6:	00 00 	addb	%al, (%rax)
+1000025f8:	e0 26 	loopne	38
+1000025fa:	00 00 	addb	%al, (%rax)
+1000025fc:	01 00 	addl	%eax, (%rax)
+1000025fe:	00 00 	addb	%al, (%rax)
+100002600:	47 1f  <unknown>
+100002602:	00 00 	addb	%al, (%rax)
+100002604:	01 00 	addl	%eax, (%rax)
+100002606:	00 00 	addb	%al, (%rax)
+100002608:	91 	xchgl	%ecx, %eax
+100002609:	1f  <unknown>
+10000260a:	00 00 	addb	%al, (%rax)
+10000260c:	01 00 	addl	%eax, (%rax)
+10000260e:	00 00 	addb	%al, (%rax)
+100002610:	03 00 	addl	(%rax), %eax
+100002612:	00 00 	addb	%al, (%rax)
+100002614:	08 00 	orb	%al, (%rax)
+100002616:	00 00 	addb	%al, (%rax)
+100002618:	10 00 	adcb	%al, (%rax)
+10000261a:	00 00 	addb	%al, (%rax)
+10000261c:	02 00 	addb	(%rax), %al
+10000261e:	00 00 	addb	%al, (%rax)
+100002620:	f1  <unknown>
+100002621:	1d 00 00 01 00 	sbbl	$65536, %eax
+100002626:	00 00 	addb	%al, (%rax)
+100002628:	f6 1d 00 00 01 00 	negb	65536(%rip)
+10000262e:	00 00 	addb	%al, (%rax)
+100002630:	0e  <unknown>
+100002631:	1e  <unknown>
+100002632:	00 00 	addb	%al, (%rax)
+100002634:	01 00 	addl	%eax, (%rax)
+100002636:	00 00 	addb	%al, (%rax)
+100002638:	12 1e 	adcb	(%rsi), %bl
+10000263a:	00 00 	addb	%al, (%rax)
+10000263c:	01 00 	addl	%eax, (%rax)
+10000263e:	00 00 	addb	%al, (%rax)
+100002640:	84 01 	testb	(%rcx), %al
+100002642:	00 00 	addb	%al, (%rax)
+100002644:	08 00 	orb	%al, (%rax)
+100002646:	00 00 	addb	%al, (%rax)
+100002648:	18 00 	sbbb	%al, (%rax)
+10000264a:	00 00 	addb	%al, (%rax)
+10000264c:	00 00 	addb	%al, (%rax)
+10000264e:	00 00 	addb	%al, (%rax)
+100002650:	74 1f 	je	31 <__objc_const+0x531>
+100002652:	00 00 	addb	%al, (%rax)
+100002654:	01 00 	addl	%eax, (%rax)
+100002656:	00 00 	addb	%al, (%rax)
+100002658:	6d 	insl	%dx, %es:(%rdi)
+100002659:	1f  <unknown>
+10000265a:	00 00 	addb	%al, (%rax)
+10000265c:	01 00 	addl	%eax, (%rax)
+10000265e:	00 00 	addb	%al, (%rax)
+100002660:	38 25 00 00 01 00 	cmpb	%ah, 65536(%rip)
+100002666:	00 00 	addb	%al, (%rax)
+100002668:	00 00 	addb	%al, (%rax)
+10000266a:	00 00 	addb	%al, (%rax)
+10000266c:	00 00 	addb	%al, (%rax)
+10000266e:	00 00 	addb	%al, (%rax)
+100002670:	d0 25 00 00 01 00 	shlb	65536(%rip)
+100002676:	00 00 	addb	%al, (%rax)
+100002678:	00 00 	addb	%al, (%rax)
+10000267a:	00 00 	addb	%al, (%rax)
+10000267c:	00 00 	addb	%al, (%rax)
+10000267e:	00 00 	addb	%al, (%rax)
+100002680:	18 26 	sbbb	%ah, (%rsi)
+100002682:	00 00 	addb	%al, (%rax)
+100002684:	01 00 	addl	%eax, (%rax)
+100002686:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_selrefs:
+__objc_selrefs:
+100002688:	7a 1e 	jp	30 <__objc_selrefs+0x20>
+10000268a:	00 00 	addb	%al, (%rax)
+10000268c:	01 00 	addl	%eax, (%rax)
+10000268e:	00 00 	addb	%al, (%rax)
+100002690:	80 1e 00 	sbbb	$0, (%rsi)
+100002693:	00 01 	addb	%al, (%rcx)
+100002695:	00 00 	addb	%al, (%rax)
+100002697:	00 b4 1e 00 00 01 00 	addb	%dh, 65536(%rsi,%rbx)
+10000269e:	00 00 	addb	%al, (%rax)
+1000026a0:	b8 1e 00 00 01 	movl	$16777246, %eax
+1000026a5:	00 00 	addb	%al, (%rax)
+1000026a7:	00 e1 	addb	%ah, %cl
+1000026a9:	1e  <unknown>
+1000026aa:	00 00 	addb	%al, (%rax)
+1000026ac:	01 00 	addl	%eax, (%rax)
+1000026ae:	00 00 	addb	%al, (%rax)
+1000026b0:	95 	xchgl	%ebp, %eax
+1000026b1:	1e  <unknown>
+1000026b2:	00 00 	addb	%al, (%rax)
+1000026b4:	01 00 	addl	%eax, (%rax)
+1000026b6:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_classrefs:
+__objc_classrefs:
+1000026b8:	b0 27 	movb	$39, %al
+1000026ba:	00 00 	addb	%al, (%rax)
+1000026bc:	01 00 	addl	%eax, (%rax)
+1000026be:	00 00 	addb	%al, (%rax)
+1000026c0:	10 27 	adcb	%ah, (%rdi)
+1000026c2:	00 00 	addb	%al, (%rax)
+1000026c4:	01 00 	addl	%eax, (%rax)
+1000026c6:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_ivar:
+_OBJC_IVAR_$_Dog._legs:
+1000026c8:	08 00 	orb	%al, (%rax)
+1000026ca:	00 00 	addb	%al, (%rax)
+1000026cc:	00 00 	addb	%al, (%rax)
+1000026ce:	00 00 	addb	%al, (%rax)
+
+_OBJC_IVAR_$_WolfDog._power:
+1000026d0:	08 00 	orb	%al, (%rax)
+1000026d2:	00 00 	addb	%al, (%rax)
+1000026d4:	00 00 	addb	%al, (%rax)
+1000026d6:	00 00 	addb	%al, (%rax)
+
+_OBJC_IVAR_$_Animal._name:
+1000026d8:	08 00 	orb	%al, (%rax)
+1000026da:	00 00 	addb	%al, (%rax)
+1000026dc:	00 00 	addb	%al, (%rax)
+1000026de:	00 00 	addb	%al, (%rax)
+
+_OBJC_IVAR_$_Animal._age:
+1000026e0:	10 00 	adcb	%al, (%rax)
+1000026e2:	00 00 	addb	%al, (%rax)
+1000026e4:	00 00 	addb	%al, (%rax)
+1000026e6:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__objc_data:
+_OBJC_METACLASS_$_Dog:
+1000026e8:	00 00 	addb	%al, (%rax)
+1000026ea:	00 00 	addb	%al, (%rax)
+1000026ec:	00 00 	addb	%al, (%rax)
+1000026ee:	00 00 	addb	%al, (%rax)
+1000026f0:	d8 27 	fsubs	(%rdi)
+1000026f2:	00 00 	addb	%al, (%rax)
+1000026f4:	01 00 	addl	%eax, (%rax)
+1000026f6:	00 00 	addb	%al, (%rax)
+1000026f8:	00 00 	addb	%al, (%rax)
+1000026fa:	00 00 	addb	%al, (%rax)
+1000026fc:	00 00 	addb	%al, (%rax)
+1000026fe:	00 00 	addb	%al, (%rax)
+100002700:	00 00 	addb	%al, (%rax)
+100002702:	00 00 	addb	%al, (%rax)
+100002704:	00 00 	addb	%al, (%rax)
+100002706:	00 00 	addb	%al, (%rax)
+100002708:	50 	pushq	%rax
+100002709:	22 00 	andb	(%rax), %al
+10000270b:	00 01 	addb	%al, (%rcx)
+10000270d:	00 00 	addb	%al, (%rax)
+10000270f:	00 e8 	addb	%ch, %al
+
+_OBJC_CLASS_$_Dog:
+100002710:	e8 26 00 00 01 	callq	16777254 <_KDog_Brother_Key+0xFFFF13>
+100002715:	00 00 	addb	%al, (%rax)
+100002717:	00 00 	addb	%al, (%rax)
+100002719:	28 00 	subb	%al, (%rax)
+10000271b:	00 01 	addb	%al, (%rcx)
+10000271d:	00 00 	addb	%al, (%rax)
+10000271f:	00 00 	addb	%al, (%rax)
+100002721:	00 00 	addb	%al, (%rax)
+100002723:	00 00 	addb	%al, (%rax)
+100002725:	00 00 	addb	%al, (%rax)
+100002727:	00 00 	addb	%al, (%rax)
+100002729:	00 00 	addb	%al, (%rax)
+10000272b:	00 00 	addb	%al, (%rax)
+10000272d:	00 00 	addb	%al, (%rax)
+10000272f:	00 c0 	addb	%al, %al
+100002731:	22 00 	andb	(%rax), %al
+100002733:	00 01 	addb	%al, (%rcx)
+100002735:	00 00 	addb	%al, (%rax)
+100002737:	00 00 	addb	%al, (%rax)
+
+_OBJC_METACLASS_$_WolfDog:
+100002738:	00 00 	addb	%al, (%rax)
+10000273a:	00 00 	addb	%al, (%rax)
+10000273c:	00 00 	addb	%al, (%rax)
+10000273e:	00 00 	addb	%al, (%rax)
+100002740:	e8 26 00 00 01 	callq	16777254 <_KDog_Brother_Key+0xFFFF43>
+100002745:	00 00 	addb	%al, (%rax)
+100002747:	00 00 	addb	%al, (%rax)
+100002749:	00 00 	addb	%al, (%rax)
+10000274b:	00 00 	addb	%al, (%rax)
+10000274d:	00 00 	addb	%al, (%rax)
+10000274f:	00 00 	addb	%al, (%rax)
+100002751:	00 00 	addb	%al, (%rax)
+100002753:	00 00 	addb	%al, (%rax)
+100002755:	00 00 	addb	%al, (%rax)
+100002757:	00 08 	addb	%cl, (%rax)
+100002759:	23 00 	andl	(%rax), %eax
+10000275b:	00 01 	addb	%al, (%rcx)
+10000275d:	00 00 	addb	%al, (%rax)
+10000275f:	00 38 	addb	%bh, (%rax)
+
+_OBJC_CLASS_$_WolfDog:
+100002760:	38 27 	cmpb	%ah, (%rdi)
+100002762:	00 00 	addb	%al, (%rax)
+100002764:	01 00 	addl	%eax, (%rax)
+100002766:	00 00 	addb	%al, (%rax)
+100002768:	10 27 	adcb	%ah, (%rdi)
+10000276a:	00 00 	addb	%al, (%rax)
+10000276c:	01 00 	addl	%eax, (%rax)
+10000276e:	00 00 	addb	%al, (%rax)
+100002770:	00 00 	addb	%al, (%rax)
+100002772:	00 00 	addb	%al, (%rax)
+100002774:	00 00 	addb	%al, (%rax)
+100002776:	00 00 	addb	%al, (%rax)
+100002778:	00 00 	addb	%al, (%rax)
+10000277a:	00 00 	addb	%al, (%rax)
+10000277c:	00 00 	addb	%al, (%rax)
+10000277e:	00 00 	addb	%al, (%rax)
+100002780:	e0 23 	loopne	35
+100002782:	00 00 	addb	%al, (%rax)
+100002784:	01 00 	addl	%eax, (%rax)
+100002786:	00 00 	addb	%al, (%rax)
+
+_OBJC_METACLASS_$_LHTestContanier:
+100002788:	00 00 	addb	%al, (%rax)
+10000278a:	00 00 	addb	%al, (%rax)
+10000278c:	00 00 	addb	%al, (%rax)
+10000278e:	00 00 	addb	%al, (%rax)
+100002790:	00 00 	addb	%al, (%rax)
+100002792:	00 00 	addb	%al, (%rax)
+100002794:	00 00 	addb	%al, (%rax)
+100002796:	00 00 	addb	%al, (%rax)
+100002798:	00 00 	addb	%al, (%rax)
+10000279a:	00 00 	addb	%al, (%rax)
+10000279c:	00 00 	addb	%al, (%rax)
+10000279e:	00 00 	addb	%al, (%rax)
+1000027a0:	00 00 	addb	%al, (%rax)
+1000027a2:	00 00 	addb	%al, (%rax)
+1000027a4:	00 00 	addb	%al, (%rax)
+1000027a6:	00 00 	addb	%al, (%rax)
+1000027a8:	28 24 00 	subb	%ah, (%rax,%rax)
+1000027ab:	00 01 	addb	%al, (%rcx)
+1000027ad:	00 00 	addb	%al, (%rax)
+1000027af:	00 88 27 00 00 01 	addb	%cl, 16777255(%rax)
+
+_OBJC_CLASS_$_LHTestContanier:
+1000027b0:	88 27 	movb	%ah, (%rdi)
+1000027b2:	00 00 	addb	%al, (%rax)
+1000027b4:	01 00 	addl	%eax, (%rax)
+1000027b6:	00 00 	addb	%al, (%rax)
+1000027b8:	00 00 	addb	%al, (%rax)
+1000027ba:	00 00 	addb	%al, (%rax)
+1000027bc:	00 00 	addb	%al, (%rax)
+1000027be:	00 00 	addb	%al, (%rax)
+1000027c0:	00 00 	addb	%al, (%rax)
+1000027c2:	00 00 	addb	%al, (%rax)
+1000027c4:	00 00 	addb	%al, (%rax)
+1000027c6:	00 00 	addb	%al, (%rax)
+1000027c8:	00 00 	addb	%al, (%rax)
+1000027ca:	00 00 	addb	%al, (%rax)
+1000027cc:	00 00 	addb	%al, (%rax)
+1000027ce:	00 00 	addb	%al, (%rax)
+1000027d0:	a8 24 	testb	$36, %al
+1000027d2:	00 00 	addb	%al, (%rax)
+1000027d4:	01 00 	addl	%eax, (%rax)
+1000027d6:	00 00 	addb	%al, (%rax)
+
+_OBJC_METACLASS_$_Animal:
+1000027d8:	00 00 	addb	%al, (%rax)
+1000027da:	00 00 	addb	%al, (%rax)
+1000027dc:	00 00 	addb	%al, (%rax)
+1000027de:	00 00 	addb	%al, (%rax)
+1000027e0:	00 00 	addb	%al, (%rax)
+1000027e2:	00 00 	addb	%al, (%rax)
+1000027e4:	00 00 	addb	%al, (%rax)
+1000027e6:	00 00 	addb	%al, (%rax)
+1000027e8:	00 00 	addb	%al, (%rax)
+1000027ea:	00 00 	addb	%al, (%rax)
+1000027ec:	00 00 	addb	%al, (%rax)
+1000027ee:	00 00 	addb	%al, (%rax)
+1000027f0:	00 00 	addb	%al, (%rax)
+1000027f2:	00 00 	addb	%al, (%rax)
+1000027f4:	00 00 	addb	%al, (%rax)
+1000027f6:	00 00 	addb	%al, (%rax)
+1000027f8:	f0 	lock
+1000027f9:	24 00 	andb	$0, %al
+1000027fb:	00 01 	addb	%al, (%rcx)
+1000027fd:	00 00 	addb	%al, (%rax)
+1000027ff:	00 d8 	addb	%bl, %al
+
+_OBJC_CLASS_$_Animal:
+100002800:	d8 27 	fsubs	(%rdi)
+100002802:	00 00 	addb	%al, (%rax)
+100002804:	01 00 	addl	%eax, (%rax)
+100002806:	00 00 	addb	%al, (%rax)
+100002808:	00 00 	addb	%al, (%rax)
+10000280a:	00 00 	addb	%al, (%rax)
+10000280c:	00 00 	addb	%al, (%rax)
+10000280e:	00 00 	addb	%al, (%rax)
+100002810:	00 00 	addb	%al, (%rax)
+100002812:	00 00 	addb	%al, (%rax)
+100002814:	00 00 	addb	%al, (%rax)
+100002816:	00 00 	addb	%al, (%rax)
+100002818:	00 00 	addb	%al, (%rax)
+10000281a:	00 00 	addb	%al, (%rax)
+10000281c:	00 00 	addb	%al, (%rax)
+10000281e:	00 00 	addb	%al, (%rax)
+100002820:	40 26 	es
+100002822:	00 00 	addb	%al, (%rax)
+100002824:	01 00 	addl	%eax, (%rax)
+100002826:	00 00 	addb	%al, (%rax)
+Disassembly of section __DATA,__data:
+_KDog_Brother_Key:
+100002828:	e0 1d 	loopne	29
+10000282a:	00 00 	addb	%al, (%rax)
+10000282c:	01 00 	addl	%eax, (%rax)
+10000282e:	00 00 	addb	%al, (%rax)
