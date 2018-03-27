@@ -15,13 +15,13 @@
 @implementation LHTestContanier
 
 - (void)beginTest {
-    Dog *dog = [[Dog alloc] init];
-    NSLog(@"%@", [dog name]);
-    Dog *brother = [Dog new];
-    dog.brother = brother;
-    NSLog(@"我的兄弟是：%@", dog.brother.name);
-    [dog whatKindOfDogIAm];
-    [dog run];
+    [self testCallClassMethod];
+}
+
+- (void)testCallClassMethod {
+    [Dog sayDog];
+    [Dog new];
+    [Dog new];
 }
 
 @end

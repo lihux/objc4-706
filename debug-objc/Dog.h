@@ -12,5 +12,6 @@
 @property (nonatomic, assign) NSInteger legs;
 
 - (void)run;
++ (void)sayDog;
 
 @end
