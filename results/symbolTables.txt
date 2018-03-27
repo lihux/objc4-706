@@ -1,3 +1,46 @@
+#To create this symbol table you need:
+#1. under command line,run: git clone https://github.com/lihux/objc4-706.git
+#2. git checkout 0ece46e
+#3. open objc.xcodeproj in Xcode and run scheme objc_debug on Mac.
+#4. add breakpoint at [Dog load] methods
+#5. back track the call stack and located at function: load_images
+#6. print out the `path` parameters in debug view and you'll find the bin image, which for me i get:
+# /Users/test/Library/Developer/Xcode/DerivedData/objc-czzejdbdporpmjacmusmazeezoup/Build/Products/Debug/debug-objc
+#7. cd `your path to the bin image file path`
+#8. under command line and run: `objdump -t debug-objc > symbolTables.txt`
+#9. and there you get it!
+
+#To know exactly what does it really mean for each colum below you can read this page:
+#https://linux.die.net/man/1/objdump
+#or here: https://stackoverflow.com/questions/6666805/what-does-each-column-of-objdumps-symbol-table-mean
+
+#Or here:
+COLUMN ONE: the symbol's value
+
+COLUMN TWO: a set of characters and spaces indicating the flag bits that are set on the symbol. There are seven groupings which are listed below:
+
+group one: (l,g,,!) local, global, neither, both.
+
+group two: (w,) weak or strong symbol.
+
+group three: (C,) symbol denotes a constructor or an ordinary symbol.
+
+group four: (W,) symbol is warning or normal symbol.
+
+group five: (I,) indirect reference to another symbol or normal symbol.
+
+group six: (d,D,) debugging symbol, dynamic symbol or normal symbol.
+
+group seven: (F,f,O,) symbol is the name of function, file, object or normal symbol.
+
+COLUMN THREE: the section in which the symbol lives, ABS means not associated with a certain section
+
+COLUMN FOUR: the symbol's size or alignment.
+
+COLUMN FIVE: the symbol's name.
+
+If you want additional information try you man page ;-) or the following links: http://manpages.ubuntu.com/manpages/intrepid/man1/objdump.1.html and http://sourceware.org/binutils/docs/binutils/objdump.html
+
 
 debug-objc:	file format Mach-O 64-bit x86-64
 
