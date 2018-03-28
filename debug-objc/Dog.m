@@ -28,4 +28,5 @@
     NSLog(@"%@:%@ 开始跑步", [self class], self.name);
 }
 
+
 @end
