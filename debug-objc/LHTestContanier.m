@@ -20,8 +20,16 @@
 }
 
 - (void)testCallClassMethod {
-    [Dog sayDog];
     [Dog new];
+    NSString *easy = @"j";
+    NSNumber *a1 = @1, *a2 = @2, *a3 = @3, *a100 = @100;
+    NSNumber *xxx = @999999999999999999;
+    NSLog(@"打印一下数字a1地址吧:%p", a1);
+    NSLog(@"打印一下数字a2地址吧:%p", a2);
+    NSLog(@"打印一下数字a3地址吧:%p", a3);
+    NSLog(@"打印一下数字a100地址吧:%p", a100);
+    NSLog(@"打印一下数字xxx地址吧:%p", xxx);
+    [Dog sayDog];
     [Dog new];
 }
 
