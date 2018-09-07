@@ -22,7 +22,31 @@
 @implementation LHTestContanier
 
 - (void)beginTest {
-    [self testCallClassMethod];
+//    [self testCallClassMethod];
+    [self testRunLoop];
+}
+
+- (void)testRunLoop {
+    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+    NSPort *port = [NSPort port];
+    [runLoop addPort:port forMode:NSRunLoopCommonModes];
+    CFAbsoluteTime refTime = CFAbsoluteTimeGetCurrent();
+    NSLog(@"start time 0.000000");
+    NSTimer *timer = [NSTimer timerWithTimeInterval:5.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        NSLog(@"timer fire %f",CFAbsoluteTimeGetCurrent() - refTime);
+    }];
+    //    timer.tolerance = 0.5;
+    [runLoop addTimer:timer forMode:NSDefaultRunLoopMode];
+    [runLoop run];
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"before busy %f", CFAbsoluteTimeGetCurrent() - refTime);
+        NSInteger j;
+        for (long  i = 0; i< 1000000000; i++) {
+            j = i*3;
+        }
+        NSLog(@"after busy %f", CFAbsoluteTimeGetCurrent() - refTime);
+    });
 }
 
 - (void)testCallClassMethod {
