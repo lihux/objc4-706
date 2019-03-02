@@ -28,5 +28,8 @@
     NSLog(@"%@:%@ 开始跑步", [self class], self.name);
 }
 
+- (void)setLegs:(NSInteger)legs {
+    _legs = legs;
+}
 
 @end

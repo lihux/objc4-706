@@ -65,6 +65,7 @@
     NSLog(@"\n\n再次打印所有的类：\n\n");
     [self printAllClasses];
     [Dog sayDog];
+    self.dog.legs = 5;
 }
 
 - (void)printAllClasses {
