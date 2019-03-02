@@ -28,5 +28,12 @@
     NSLog(@"%@:%@ 开始跑步", [self class], self.name);
 }
 
+- (void)setLegs:(NSInteger)legs {
+    _legs = legs;
+}
+
++ (BOOL)resolveInstanceMethod:(SEL)sel {
+    return NO;
+}
 
 @end

@@ -10,6 +10,7 @@
 
 #import "LHTestContanier.h"
 
+#import "Dog.h"
 
 int isBigEndian() {
     union w {

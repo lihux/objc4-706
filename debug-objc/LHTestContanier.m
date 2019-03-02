@@ -16,14 +16,24 @@
 @interface LHTestContanier ()
 
 @property (nonatomic, strong) Dog *dog;
+@property (nonatomic, weak) Dog *weakDog;
 
 @end
+
 
 @implementation LHTestContanier
 
 - (void)beginTest {
 //    [self testCallClassMethod];
-    [self testRunLoop];
+    self.dog = [Dog new];
+    self.weakDog = self.dog;
+//    [self testRunLoop];
+    self.weakDog = nil;
+//    [self testWeak];
+    NSLog(@"我的世界在下雪");
+}
+
+- (void)testWeak {
 }
 
 - (void)testRunLoop {
@@ -65,6 +75,7 @@
     NSLog(@"\n\n再次打印所有的类：\n\n");
     [self printAllClasses];
     [Dog sayDog];
+    self.dog.legs = 5;
 }
 
 - (void)printAllClasses {
