@@ -934,6 +934,7 @@
 					"$(OTHER_CFLAGS)",
 					"-D_LIBCPP_VISIBLE=\"\"",
 				);
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -980,6 +981,7 @@
 					"$(OTHER_CFLAGS)",
 					"-D_LIBCPP_VISIBLE=\"\"",
 				);
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",

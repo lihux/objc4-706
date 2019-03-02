@@ -198,7 +198,7 @@ void SideTable::unlockTwo<false, true>(SideTable *, SideTable *lock2) {
 // pointer to this struct because of the extra indirection.
 // Do it the hard way.
 alignas(StripedMap<SideTable>) static uint8_t 
-    SideTableBuf[sizeof(StripedMap<SideTable>)];
+    SideTableBuf[sizeof(StripedMap<SideTable>)];//static uint8_t sideTableBuf[64 * 64]
 
 static void SideTableInit() {
     new (SideTableBuf) StripedMap<SideTable>();

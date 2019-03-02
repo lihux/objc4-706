@@ -32,4 +32,8 @@
     _legs = legs;
 }
 
++ (BOOL)resolveInstanceMethod:(SEL)sel {
+    return NO;
+}
+
 @end

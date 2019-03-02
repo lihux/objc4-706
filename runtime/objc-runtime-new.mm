@@ -721,7 +721,7 @@ static void methodizeClass(Class cls)
     category_list *cats = unattachedCategoriesForClass(cls, true /*realizing*/);
     attachCategories(cls, cats, false /*don't flush caches*/);
 
-    if (PrintConnecting) {
+    if (PrintConnecting || 1) {
         if (cats) {
             for (uint32_t i = 0; i < cats->count; i++) {
                 _objc_inform("CLASS: attached category %c%s(%s)", 
